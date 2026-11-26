@@ -1,0 +1,483 @@
+[
+  {
+    "name": "Argon2d baseline",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 3
+      }
+    ],
+    "family": "baseline"
+  },
+  {
+    "name": "Argon2d tuned t=1",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 163,
+        "t": 1
+      }
+    ],
+    "family": "tuned standalone"
+  },
+  {
+    "name": "Argon2d tuned t=2",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 79,
+        "t": 2
+      }
+    ],
+    "family": "tuned standalone"
+  },
+  {
+    "name": "PBKDF2-sha256 (a.t=1) -> Argon2d",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 125000
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "Argon2d -> PBKDF2-sha256 (a.t=1)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 125000
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "PBKDF2-sha512 (a.t=1) -> Argon2d",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 69000
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "Argon2d -> PBKDF2-sha512 (a.t=1)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 69000
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "PBKDF2-sha3_256 (a.t=1) -> Argon2d",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 54000
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "Argon2d -> PBKDF2-sha3_256 (a.t=1)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 54000
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "bcrypt-PBKDF (a.t=1) -> Argon2d",
+    "stages": [
+      {
+        "kind": "bcrypt_pbkdf",
+        "rounds": 23
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "bcrypt-PBKDF cascade"
+  },
+  {
+    "name": "Argon2d -> bcrypt-PBKDF (a.t=1)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "bcrypt_pbkdf",
+        "rounds": 23
+      }
+    ],
+    "family": "bcrypt-PBKDF cascade"
+  },
+  {
+    "name": "PBKDF2-sha256 (a.t=2) -> Argon2d",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 44000
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "Argon2d -> PBKDF2-sha256 (a.t=2)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 44000
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "PBKDF2-sha512 (a.t=2) -> Argon2d",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 25000
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "Argon2d -> PBKDF2-sha512 (a.t=2)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 25000
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "PBKDF2-sha3_256 (a.t=2) -> Argon2d",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 33000
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "Argon2d -> PBKDF2-sha3_256 (a.t=2)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 33000
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "bcrypt-PBKDF (a.t=2) -> Argon2d",
+    "stages": [
+      {
+        "kind": "bcrypt_pbkdf",
+        "rounds": 8
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      }
+    ],
+    "family": "bcrypt-PBKDF cascade"
+  },
+  {
+    "name": "Argon2d -> bcrypt-PBKDF (a.t=2)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      },
+      {
+        "kind": "bcrypt_pbkdf",
+        "rounds": 8
+      }
+    ],
+    "family": "bcrypt-PBKDF cascade"
+  },
+  {
+    "name": "scrypt (a.t=1) -> Argon2d",
+    "stages": [
+      {
+        "kind": "scrypt",
+        "n": 8192,
+        "r": 8,
+        "p": 2
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "scrypt cascade"
+  },
+  {
+    "name": "Argon2d -> scrypt (a.t=1)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "scrypt",
+        "n": 8192,
+        "r": 8,
+        "p": 2
+      }
+    ],
+    "family": "scrypt cascade"
+  },
+  {
+    "name": "scrypt (a.t=2) -> Argon2d",
+    "stages": [
+      {
+        "kind": "scrypt",
+        "n": 4096,
+        "r": 8,
+        "p": 2
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      }
+    ],
+    "family": "scrypt cascade"
+  },
+  {
+    "name": "Argon2d -> scrypt (a.t=2)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 2
+      },
+      {
+        "kind": "scrypt",
+        "n": 4096,
+        "r": 8,
+        "p": 2
+      }
+    ],
+    "family": "scrypt cascade"
+  },
+  {
+    "name": "Argon2d 32 MiB -> Argon2d 109 MiB",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 32,
+        "t": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 109,
+        "t": 1
+      }
+    ],
+    "family": "double Argon2"
+  },
+  {
+    "name": "Argon2d 109 MiB -> Argon2d 32 MiB (reverse of 32)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 109,
+        "t": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 32,
+        "t": 1
+      }
+    ],
+    "family": "double Argon2"
+  },
+  {
+    "name": "Argon2d 64 MiB -> Argon2d 91 MiB",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 91,
+        "t": 1
+      }
+    ],
+    "family": "double Argon2"
+  },
+  {
+    "name": "Argon2d 91 MiB -> Argon2d 64 MiB (reverse of 64)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 91,
+        "t": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "double Argon2"
+  },
+  {
+    "name": "Argon2d 64 MiB -> Argon2id 92 MiB",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "argon2id",
+        "m": 92,
+        "t": 1
+      }
+    ],
+    "family": "mixed Argon2"
+  },
+  {
+    "name": "Argon2id 92 MiB -> Argon2d 64 MiB (reverse)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 92,
+        "t": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "mixed Argon2"
+  },
+  {
+    "name": "Argon2d 64 MiB -> Argon2i 82 MiB",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "argon2i",
+        "m": 82,
+        "t": 1
+      }
+    ],
+    "family": "mixed Argon2"
+  },
+  {
+    "name": "Argon2i 82 MiB -> Argon2d 64 MiB (reverse)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 82,
+        "t": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "mixed Argon2"
+  }
+]

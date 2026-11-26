@@ -1,0 +1,39 @@
+Maximum defense: Minimize stored GPU H/s; stop at the first confirmed feasible configuration.
+49 eligible configurations. GPU-ordered early stopping enabled.
+[1/49] id_m256_t6_p1  profile maximum 72 H/s
+[2/49] id_m256_t5_p1  profile maximum 85 H/s
+[3/49] id_m256_t4_p1  profile maximum 107 H/s
+[4/49] id_m256_t6_p2  profile maximum 125 H/s
+[5/49] id_m256_t3_p1  profile maximum 144 H/s
+[6/49] id_m256_t5_p2  profile maximum 151 H/s
+[7/49] id_m256_t6_p8  profile maximum 171 H/s
+[8/49] id_m256_t6_p4  profile maximum 179 H/s
+[9/49] id_m256_t4_p2  profile maximum 190 H/s
+[10/49] id_m256_t5_p8  profile maximum 206 H/s
+[11/49] id_m256_t5_p4  profile maximum 221 H/s
+[12/49] id_m128_t6_p1  profile maximum 251 H/s
+[13/49] id_m256_t3_p2  profile maximum 254 H/s
+[14/49] id_m256_t4_p8  profile maximum 269 H/s
+[15/49] id_m256_t4_p4  profile maximum 275 H/s
+[16/49] id_m128_t5_p1  profile maximum 308 H/s
+[17/49] id_m128_t6_p8  profile maximum 341 H/s
+[18/49] id_m128_t6_p4  profile maximum 350 H/s
+[19/49] id_m128_t6_p2  profile maximum 364 H/s
+[20/49] id_m256_t3_p8  profile maximum 366 H/s
+[21/49] id_m256_t3_p4  profile maximum 372 H/s
+[22/49] id_m128_t4_p1  profile maximum 379 H/s
+[23/49] id_m128_t5_p8  profile maximum 409 H/s
+[24/49] id_m128_t5_p4  profile maximum 426 H/s
+[25/49] id_m128_t5_p2  profile maximum 437 H/s
+[26/49] id_m135_t4_p4  profile maximum 483 H/s
+[27/49] id_m128_t3_p1  profile maximum 515 H/s
+[28/49] id_m128_t4_p8  profile maximum 527 H/s
+[29/49] id_m128_t4_p4  profile maximum 543 H/s
+  skipped: CPU timer returned nonpositive duration
+[30/49] id_m128_t4_p2  profile maximum 544 H/s
+[31/49] id_m64_t6_p4  profile maximum 694 H/s
+  skipped: CPU timer returned nonpositive duration
+[32/49] id_m64_t6_p8  profile maximum 701 H/s
+  confirmed; objective = 701
+Recommendation: id_m64_t6_p8
+Results: C:\Users\156en\OneDrive\Desktop\Results\argon2_run_maximum_defense_20261126_020929_001271

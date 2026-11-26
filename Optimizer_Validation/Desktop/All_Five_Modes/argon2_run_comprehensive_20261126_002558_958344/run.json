@@ -1,0 +1,36 @@
+{
+  "settings": {
+    "latency_ms": 100.0,
+    "max_memory": 256,
+    "min_memory": 64,
+    "min_passes": 3,
+    "workers": 4,
+    "max_cpu_ms": null,
+    "max_p95_ms": null,
+    "max_rss_mib": null,
+    "min_throughput": null,
+    "screen_rounds": 2,
+    "confirm_rounds": 5,
+    "max_tests": 0,
+    "exhaustive": false,
+    "mode": "comprehensive",
+    "max_gpu_hps": null,
+    "research_relaxed": false
+  },
+  "environment": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "logical_cpus": 24,
+    "ram_mib": 32502.3984375,
+    "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "argon2_cffi": "25.1.0"
+  },
+  "profile_ids": [
+    "rtx4090_hashcat8_cuda"
+  ],
+  "profile_sha256": [
+    "ee78b7dd0e0ebeea4f0cded6ceee8fc5848c8ab582f116571056fb42a501d456"
+  ],
+  "eligible_count": 49,
+  "common_argon2id_count": 193
+}

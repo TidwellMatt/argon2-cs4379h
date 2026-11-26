@@ -1,0 +1,34 @@
+name,benchmarked_as,family,target_pct,target_ms,calibration_ms,error_pct,deduplicated
+Argon2id baseline,Argon2id baseline,baseline,,4.849046999879647,5.6810200003383216,17.157453835347923,False
+Argon2i baseline,Argon2i baseline,baseline,,4.849046999879647,4.915337000056752,1.3670727501455593,False
+Argon2d baseline,Argon2d baseline,baseline,,4.849046999879647,4.834203999962483,-0.306101382756907,False
+Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=1] [target=50%],Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=1] [target=50%],PBKDF2 cascade,50,2.4245234999398235,2.397642999767413,-1.1086920862213745,False
+Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=1] [target=110%],Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=1] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.315018000146665,-0.3549657137205897,False
+Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=2] [target=50%],Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=2] [target=50%],PBKDF2 cascade,50,2.4245234999398235,1.8476750001354958,-23.792242055754254,False
+Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=2] [target=110%],Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=2] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.398843999955716,1.2165895707251018,False
+PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=1] [target=50%],PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=1] [target=50%],PBKDF2 cascade,50,2.4245234999398235,2.408549000392668,-0.6588717142791967,False
+PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=1] [target=110%],PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=1] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.399720500008698,1.233022041476639,False
+PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=2] [target=50%],PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=2] [target=50%],PBKDF2 cascade,50,2.4245234999398235,1.7762580000635353,-26.737851783757847,False
+PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=2] [target=110%],PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=2] [target=110%],PBKDF2 cascade,110,5.333951699867612,4.918639499919664,-7.786200987876512,False
+Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=1] [target=50%],Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=1] [target=50%],PBKDF2 cascade,50,2.4245234999398235,2.4784645002000616,2.224808308171755,False
+Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=1] [target=110%],Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=1] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.533441999432398,3.7400094862077182,False
+Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=2] [target=50%],Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=2] [target=50%],PBKDF2 cascade,50,2.4245234999398235,2.5091409997912706,3.490067217477888,False
+Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=2] [target=110%],Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=2] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.341526999927737,0.14202040975199726,False
+PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=1] [target=50%],PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=1] [target=50%],PBKDF2 cascade,50,2.4245234999398235,2.4104519998218166,-0.5803820882064548,False
+PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=1] [target=110%],PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=1] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.314326999723562,-0.36792046963111114,False
+PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=2] [target=50%],PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=2] [target=50%],PBKDF2 cascade,50,2.4245234999398235,2.509295999971073,3.496460233664611,False
+PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=2] [target=110%],PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=2] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.182519499612681,-2.839024587693384,False
+Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=1] [target=50%],Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=1] [target=50%],PBKDF2 cascade,50,2.4245234999398235,2.6432370000293304,9.020885963569135,False
+Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=1] [target=110%],Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=1] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.861019999883865,9.881384940724814,False
+Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=2] [target=50%],Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=2] [target=50%],PBKDF2 cascade,50,2.4245234999398235,1.6883710000001884,-30.362770249820493,False
+Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=2] [target=110%],Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=2] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.491132999850379,2.946807710813504,False
+PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=1] [target=50%],PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=1] [target=50%],PBKDF2 cascade,50,2.4245234999398235,2.353827499973704,-2.9158719215497064,False
+PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=1] [target=110%],PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=1] [target=110%],PBKDF2 cascade,110,5.333951699867612,4.055628000060096,-23.96579068834169,False
+PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=2] [target=50%],PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=2] [target=50%],PBKDF2 cascade,50,2.4245234999398235,1.6031674999794632,-33.8770071719555,False
+PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=2] [target=110%],PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=2] [target=110%],PBKDF2 cascade,110,5.333951699867612,5.354622499908146,0.3875325687903608,False
+Argon2id tuned t=1 p=2 [target=50%],Argon2id tuned t=1 p=2 [target=50%],tuned standalone,50,2.4245234999398235,2.248823999252636,-7.246764186511223,False
+Argon2id tuned t=1 p=2 [target=110%],Argon2id tuned t=1 p=2 [target=110%],tuned standalone,110,5.333951699867612,2.81568700029311,-47.211989183122995,False
+Argon2i tuned t=1 p=2 [target=50%],Argon2i tuned t=1 p=2 [target=50%],tuned standalone,50,2.4245234999398235,2.281103000314033,-5.915409754920919,False
+Argon2i tuned t=1 p=2 [target=110%],Argon2i tuned t=1 p=2 [target=110%],tuned standalone,110,5.333951699867612,2.8808549996028887,-45.990230851276905,False
+Argon2d tuned t=1 p=2 [target=50%],Argon2d tuned t=1 p=2 [target=50%],tuned standalone,50,2.4245234999398235,2.435313999740174,0.4450565152541719,False
+Argon2d tuned t=1 p=2 [target=110%],Argon2d tuned t=1 p=2 [target=110%],tuned standalone,110,5.333951699867612,2.669697999408527,-49.948965614465756,False

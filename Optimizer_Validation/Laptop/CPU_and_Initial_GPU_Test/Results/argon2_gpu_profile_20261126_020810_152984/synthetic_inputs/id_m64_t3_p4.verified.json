@@ -1,0 +1,6 @@
+{
+  "target_sha256": "34f5fc3808d6bb318bd92e4d2c447b78b3f1c0d35cc5b496b8d7abaf7bcfe037",
+  "backend": "opencl",
+  "device_id": 1,
+  "device": "Intel(R) OpenCL HD Graphics"
+}

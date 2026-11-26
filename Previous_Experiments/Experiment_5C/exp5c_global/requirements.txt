@@ -1,0 +1,5 @@
+argon2-cffi
+bcrypt
+cryptography>=42
+psutil
+matplotlib

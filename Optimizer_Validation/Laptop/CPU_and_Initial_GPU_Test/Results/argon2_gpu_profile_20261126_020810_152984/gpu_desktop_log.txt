@@ -1,0 +1,9 @@
+Intel(R) OpenCL HD Graphics | 0/386 saved GPU measurements.
+Pause takes effect after the current measurement.
+Traceback (most recent call last):
+  File "desktop.py", line 52, in worker
+  File "gpu_profile_builder.py", line 219, in main
+  File "gpu_profile_builder.py", line 201, in run
+  File "gpu_profile_builder.py", line 119, in measure
+  File "gpu_profile_builder.py", line 81, in parse_status
+ValueError: GPU status device does not match selected GPU; refusing measurement.

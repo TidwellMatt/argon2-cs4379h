@@ -1,0 +1,799 @@
+{
+  "source_sha256": {
+    "ranking.csv": "a24e0a7c6992175a7c4bf5debe6f20171e8f8cf59defa801af93e15d81ee5b5d",
+    "configs.json": "37d9f37643a507089f5993d2aa28e9563eb97218baff5a3d50fea72b3652e6ac"
+  },
+  "screening_environment": {
+    "version": "7",
+    "backends": {
+      "balloon": {
+        "available": true,
+        "backend": "nettle",
+        "validation": "3 published Nettle vectors"
+      },
+      "yescrypt": {
+        "available": true,
+        "backend": "libxcrypt",
+        "validation": "determinism/input sensitivity only; independent KAT pending"
+      },
+      "lyra2": {
+        "available": true,
+        "backend": "external PHS shared library",
+        "validation": "determinism/input sensitivity only; independent KAT pending"
+      },
+      "catena": {
+        "available": true,
+        "backend": "external PHS shared library",
+        "validation": "determinism/input sensitivity only; independent KAT pending"
+      },
+      "bcrypt": {
+        "available": true,
+        "backend": "bcrypt"
+      }
+    },
+    "workers": [
+      1,
+      8
+    ],
+    "repeats": 2,
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "logical_cpus": 24,
+    "synthetic_only": true,
+    "backend": "CPU process pool",
+    "confirmation_from": null
+  },
+  "selection": [
+    {
+      "config": {
+        "name": "Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)",
+        "stages": [
+          {
+            "kind": "argon2i",
+            "m": 170,
+            "t": 3,
+            "p": 4
+          },
+          {
+            "kind": "cipher_workload",
+            "cipher": "AES-GCM",
+            "rounds": 32
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2i(170MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "hybrid_top_1"
+      ],
+      "screening_rank": 7,
+      "screening_latency_ms": 106.10243650003781,
+      "screening_throughput": 16.2784881784762,
+      "screening_product": 1.727187258273387
+    },
+    {
+      "config": {
+        "name": "Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)",
+        "stages": [
+          {
+            "kind": "argon2id",
+            "m": 135,
+            "t": 4,
+            "p": 4
+          },
+          {
+            "kind": "cipher_workload",
+            "cipher": "AES-CTR",
+            "rounds": 32
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2id(135MiB,t4,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "hybrid_top_2"
+      ],
+      "screening_rank": 12,
+      "screening_latency_ms": 98.13403099997231,
+      "screening_throughput": 18.38401309534592,
+      "screening_product": 1.8040973110025735
+    },
+    {
+      "config": {
+        "name": "ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)",
+        "stages": [
+          {
+            "kind": "cipher_workload",
+            "cipher": "ChaCha20",
+            "rounds": 32
+          },
+          {
+            "kind": "argon2id",
+            "m": 135,
+            "t": 4,
+            "p": 4
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2id(135MiB,t4,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "hybrid_top_3"
+      ],
+      "screening_rank": 20,
+      "screening_latency_ms": 103.21101899990026,
+      "screening_throughput": 17.824126374655357,
+      "screening_product": 1.8396462459111775
+    },
+    {
+      "config": {
+        "name": "yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)",
+        "stages": [
+          {
+            "kind": "yescrypt",
+            "backend": "libxcrypt",
+            "cost": 3
+          },
+          {
+            "kind": "argon2id",
+            "m": 135,
+            "t": 4,
+            "p": 4
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2id(135MiB,t4,p4)",
+        "exploratory_backend": true,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "hybrid_top_4"
+      ],
+      "screening_rank": 21,
+      "screening_latency_ms": 103.72325275005778,
+      "screening_throughput": 17.816732155993343,
+      "screening_product": 1.8480094125961795
+    },
+    {
+      "config": {
+        "name": "Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)",
+        "stages": [
+          {
+            "kind": "argon2id",
+            "m": 135,
+            "t": 4,
+            "p": 4
+          },
+          {
+            "kind": "yescrypt",
+            "backend": "libxcrypt",
+            "cost": 3
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2id(135MiB,t4,p4)",
+        "exploratory_backend": true,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "hybrid_top_5"
+      ],
+      "screening_rank": 22,
+      "screening_latency_ms": 102.05612249995966,
+      "screening_throughput": 18.138819330682008,
+      "screening_product": 1.8511775676167193
+    },
+    {
+      "config": {
+        "name": "Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)",
+        "stages": [
+          {
+            "kind": "argon2d",
+            "m": 64,
+            "t": 3,
+            "p": 4
+          },
+          {
+            "kind": "cipher_workload",
+            "cipher": "AES-CCM",
+            "rounds": 32
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2d(64MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "hybrid_top_6"
+      ],
+      "screening_rank": 23,
+      "screening_latency_ms": 48.730154000054426,
+      "screening_throughput": 38.09864651642042,
+      "screening_product": 1.8565529119388042
+    },
+    {
+      "config": {
+        "name": "AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)",
+        "stages": [
+          {
+            "kind": "cipher_workload",
+            "cipher": "AES-OFB",
+            "rounds": 32
+          },
+          {
+            "kind": "argon2d",
+            "m": 157,
+            "t": 3,
+            "p": 4
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2d(157MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "hybrid_top_7"
+      ],
+      "screening_rank": 24,
+      "screening_latency_ms": 106.18748974991377,
+      "screening_throughput": 17.490933551972983,
+      "screening_product": 1.8573183272665539
+    },
+    {
+      "config": {
+        "name": "lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)",
+        "stages": [
+          {
+            "kind": "lyra2",
+            "m_cost": 1024,
+            "t": 1
+          },
+          {
+            "kind": "argon2id",
+            "m": 135,
+            "t": 4,
+            "p": 4
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2id(135MiB,t4,p4)",
+        "exploratory_backend": true,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "hybrid_top_8"
+      ],
+      "screening_rank": 26,
+      "screening_latency_ms": 109.3667370000162,
+      "screening_throughput": 17.008737685253998,
+      "screening_product": 1.8601901411254382
+    },
+    {
+      "config": {
+        "name": "AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)",
+        "stages": [
+          {
+            "kind": "cipher_workload",
+            "cipher": "AES-CTR",
+            "rounds": 32
+          },
+          {
+            "kind": "argon2i",
+            "m": 64,
+            "t": 3,
+            "p": 4
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2i(64MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "hybrid_top_9"
+      ],
+      "screening_rank": 27,
+      "screening_latency_ms": 44.23599450012716,
+      "screening_throughput": 42.067597375212586,
+      "screening_product": 1.8609020061234678
+    },
+    {
+      "config": {
+        "name": "AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)",
+        "stages": [
+          {
+            "kind": "cipher_workload",
+            "cipher": "AES-GCM",
+            "rounds": 32
+          },
+          {
+            "kind": "argon2id",
+            "m": 135,
+            "t": 4,
+            "p": 4
+          }
+        ],
+        "family": "hybrid",
+        "anchor": "Argon2id(135MiB,t4,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "hybrid_top_10"
+      ],
+      "screening_rank": 29,
+      "screening_latency_ms": 101.63328175002562,
+      "screening_throughput": 18.322641479046222,
+      "screening_product": 1.8621901838446109
+    },
+    {
+      "config": {
+        "name": "Argon2d(192MiB,t6,p4)",
+        "stages": [
+          {
+            "kind": "argon2d",
+            "m": 192,
+            "t": 6,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2d(192MiB,t6,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "standalone_top_1"
+      ],
+      "screening_rank": 1,
+      "screening_latency_ms": 189.08582825002895,
+      "screening_throughput": 8.796926818584987,
+      "screening_product": 1.6633741935470345
+    },
+    {
+      "config": {
+        "name": "Argon2i(64MiB,t3,p4)",
+        "stages": [
+          {
+            "kind": "argon2i",
+            "m": 64,
+            "t": 3,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2i(64MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "standalone_top_2",
+        "unchanged_hybrid_anchor"
+      ],
+      "screening_rank": 2,
+      "screening_latency_ms": 38.87665500002413,
+      "screening_throughput": 43.24540602325192,
+      "screening_product": 1.6812367303019302
+    },
+    {
+      "config": {
+        "name": "Argon2id(128MiB,t6,p4)",
+        "stages": [
+          {
+            "kind": "argon2id",
+            "m": 128,
+            "t": 6,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2id(128MiB,t6,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "standalone_top_3"
+      ],
+      "screening_rank": 3,
+      "screening_latency_ms": 126.0988280000106,
+      "screening_throughput": 13.39842799069657,
+      "screening_product": 1.6895260666693743
+    },
+    {
+      "config": {
+        "name": "Argon2d(128MiB,t6,p4)",
+        "stages": [
+          {
+            "kind": "argon2d",
+            "m": 128,
+            "t": 6,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2d(128MiB,t6,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "standalone_top_4"
+      ],
+      "screening_rank": 4,
+      "screening_latency_ms": 127.0965492499272,
+      "screening_throughput": 13.411975965177575,
+      "screening_product": 1.7046158637970314
+    },
+    {
+      "config": {
+        "name": "Argon2i(256MiB,t6,p4)",
+        "stages": [
+          {
+            "kind": "argon2i",
+            "m": 256,
+            "t": 6,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2i(256MiB,t6,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "standalone_top_5"
+      ],
+      "screening_rank": 5,
+      "screening_latency_ms": 261.28197500003125,
+      "screening_throughput": 6.537303972706525,
+      "screening_product": 1.7080796931643112
+    },
+    {
+      "config": {
+        "name": "Argon2d(256MiB,t6,p4)",
+        "stages": [
+          {
+            "kind": "argon2d",
+            "m": 256,
+            "t": 6,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2d(256MiB,t6,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "standalone_top_6"
+      ],
+      "screening_rank": 6,
+      "screening_latency_ms": 253.92740149999327,
+      "screening_throughput": 6.744644912149365,
+      "screening_product": 1.7126501565822385
+    },
+    {
+      "config": {
+        "name": "Argon2id(256MiB,t4,p4)",
+        "stages": [
+          {
+            "kind": "argon2id",
+            "m": 256,
+            "t": 4,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2id(256MiB,t4,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "standalone_top_7"
+      ],
+      "screening_rank": 8,
+      "screening_latency_ms": 185.1385497499507,
+      "screening_throughput": 9.351319374192915,
+      "screening_product": 1.7312897071866928
+    },
+    {
+      "config": {
+        "name": "Argon2i(128MiB,t6,p4)",
+        "stages": [
+          {
+            "kind": "argon2i",
+            "m": 128,
+            "t": 6,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2i(128MiB,t6,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "standalone_top_8"
+      ],
+      "screening_rank": 9,
+      "screening_latency_ms": 125.54694175011605,
+      "screening_throughput": 13.801138881238135,
+      "screening_product": 1.732690779208066
+    },
+    {
+      "config": {
+        "name": "Argon2d(192MiB,t4,p4)",
+        "stages": [
+          {
+            "kind": "argon2d",
+            "m": 192,
+            "t": 4,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2d(192MiB,t4,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "standalone_top_9"
+      ],
+      "screening_rank": 10,
+      "screening_latency_ms": 140.2407662500309,
+      "screening_throughput": 12.374398145745538,
+      "screening_product": 1.7353950778423157
+    },
+    {
+      "config": {
+        "name": "Argon2i(64MiB,t6,p4)",
+        "stages": [
+          {
+            "kind": "argon2i",
+            "m": 64,
+            "t": 6,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2i(64MiB,t6,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "standalone_top_10"
+      ],
+      "screening_rank": 11,
+      "screening_latency_ms": 65.03656900002852,
+      "screening_throughput": 27.57098331072028,
+      "screening_product": 1.7931221584862942
+    },
+    {
+      "config": {
+        "name": "Argon2id(64MiB,t4,p4)",
+        "stages": [
+          {
+            "kind": "argon2id",
+            "m": 64,
+            "t": 4,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2id(64MiB,t4,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "screening_equal_latency_control",
+        "screening_latency_control"
+      ],
+      "screening_rank": 18,
+      "screening_latency_ms": 47.61273550002443,
+      "screening_throughput": 38.28338195762599,
+      "screening_product": 1.8227765391948536
+    },
+    {
+      "config": {
+        "name": "Argon2id(192MiB,t3,p4)",
+        "stages": [
+          {
+            "kind": "argon2id",
+            "m": 192,
+            "t": 3,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2id(192MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "screening_equal_latency_control",
+        "screening_latency_control"
+      ],
+      "screening_rank": 31,
+      "screening_latency_ms": 115.32040074999372,
+      "screening_throughput": 16.17870607543251,
+      "screening_product": 1.865734868235235
+    },
+    {
+      "config": {
+        "name": "Argon2i(170MiB,t3,p4)",
+        "stages": [
+          {
+            "kind": "argon2i",
+            "m": 170,
+            "t": 3,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2i(170MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "screening_equal_latency_control",
+        "screening_latency_control",
+        "unchanged_hybrid_anchor"
+      ],
+      "screening_rank": 35,
+      "screening_latency_ms": 102.53131899989398,
+      "screening_throughput": 18.379568504513927,
+      "screening_product": 1.8844814014167217
+    },
+    {
+      "config": {
+        "name": "Argon2id(135MiB,t4,p4)",
+        "stages": [
+          {
+            "kind": "argon2id",
+            "m": 135,
+            "t": 4,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2id(135MiB,t4,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "unchanged_hybrid_anchor"
+      ],
+      "screening_rank": 48,
+      "screening_latency_ms": 102.96549274991662,
+      "screening_throughput": 18.74098422784217,
+      "screening_product": 1.9296746756381846
+    },
+    {
+      "config": {
+        "name": "Argon2d(157MiB,t3,p4)",
+        "stages": [
+          {
+            "kind": "argon2d",
+            "m": 157,
+            "t": 3,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2d(157MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "unchanged_hybrid_anchor"
+      ],
+      "screening_rank": 64,
+      "screening_latency_ms": 101.15319874989837,
+      "screening_throughput": 19.69423238396315,
+      "screening_product": 1.9921346025617093
+    },
+    {
+      "config": {
+        "name": "Argon2d(64MiB,t3,p4)",
+        "stages": [
+          {
+            "kind": "argon2d",
+            "m": 64,
+            "t": 3,
+            "p": 4
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2d(64MiB,t3,p4)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "unchanged_hybrid_anchor"
+      ],
+      "screening_rank": 102,
+      "screening_latency_ms": 41.460258000086014,
+      "screening_throughput": 49.94785165260043,
+      "screening_product": 2.0708508160668364
+    },
+    {
+      "config": {
+        "name": "Argon2d(64MiB,t3,p1)",
+        "stages": [
+          {
+            "kind": "argon2d",
+            "m": 64,
+            "t": 3,
+            "p": 1
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2d(64MiB,t3,p1)",
+        "exploratory_backend": false,
+        "contains_argon2d": true
+      },
+      "roles": [
+        "default_reference"
+      ],
+      "screening_rank": 998,
+      "screening_latency_ms": 110.01034949998711,
+      "screening_throughput": 41.983734785256594,
+      "screening_product": 4.618645337040844
+    },
+    {
+      "config": {
+        "name": "Argon2id(64MiB,t3,p1)",
+        "stages": [
+          {
+            "kind": "argon2id",
+            "m": 64,
+            "t": 3,
+            "p": 1
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2id(64MiB,t3,p1)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "default_reference"
+      ],
+      "screening_rank": 1021,
+      "screening_latency_ms": 107.73888375001661,
+      "screening_throughput": 43.33647382577971,
+      "screening_product": 4.669023315651319
+    },
+    {
+      "config": {
+        "name": "Argon2i(64MiB,t3,p1)",
+        "stages": [
+          {
+            "kind": "argon2i",
+            "m": 64,
+            "t": 3,
+            "p": 1
+          }
+        ],
+        "family": "standalone",
+        "anchor": "Argon2i(64MiB,t3,p1)",
+        "exploratory_backend": false,
+        "contains_argon2d": false
+      },
+      "roles": [
+        "default_reference"
+      ],
+      "screening_rank": 1037,
+      "screening_latency_ms": 110.62731449999319,
+      "screening_throughput": 42.64394868421867,
+      "screening_product": 4.71758552261063
+    }
+  ]
+}

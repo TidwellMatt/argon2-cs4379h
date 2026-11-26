@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Argon2i baseline",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 64,
+        "t": 3
+      }
+    ],
+    "family": "baseline"
+  },
+  {
+    "name": "Argon2i tuned t=1",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 164,
+        "t": 1
+      }
+    ],
+    "family": "tuned standalone"
+  },
+  {
+    "name": "Argon2i tuned t=2",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 91,
+        "t": 2
+      }
+    ],
+    "family": "tuned standalone"
+  },
+  {
+    "name": "bcrypt-PBKDF (a.t=1) -> Argon2i",
+    "stages": [
+      {
+        "kind": "bcrypt_pbkdf",
+        "rounds": 20
+      },
+      {
+        "kind": "argon2i",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "bcrypt-PBKDF cascade"
+  },
+  {
+    "name": "Argon2i -> bcrypt-PBKDF (a.t=1)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "bcrypt_pbkdf",
+        "rounds": 20
+      }
+    ],
+    "family": "bcrypt-PBKDF cascade"
+  },
+  {
+    "name": "Argon2i 74 MiB -> Argon2i 64 MiB (reverse of 64)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 74,
+        "t": 1
+      },
+      {
+        "kind": "argon2i",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "double Argon2"
+  }
+]

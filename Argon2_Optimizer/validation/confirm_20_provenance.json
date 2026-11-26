@@ -1,0 +1,7 @@
+{
+  "manifest_sha256": "f2a3cbe61a5af18d94d0fffb523ded6866b0eff1fdfb347767b7a3f0fd81cabb",
+  "archive_sha256": "c1c9ef9f04086124376fc4d3e082217189fca3f956691b1e95507f321152c4a9",
+  "workers": 4,
+  "cpu_inner": 3,
+  "rounds": 20
+}

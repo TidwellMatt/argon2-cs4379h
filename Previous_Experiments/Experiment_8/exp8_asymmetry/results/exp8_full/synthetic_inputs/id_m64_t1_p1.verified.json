@@ -1,0 +1,4 @@
+{
+  "backend": "cuda",
+  "target_sha256": "fd94ff352aece660c42767762b20abc80060d547f065948cbcca18e679518371"
+}

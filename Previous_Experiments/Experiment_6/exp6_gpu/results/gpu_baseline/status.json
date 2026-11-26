@@ -1,0 +1,8 @@
+{
+  "returncode": 0,
+  "speed_lines": 1,
+  "telemetry_samples": 12,
+  "mode": 34000,
+  "scope": "built-in standard Argon2 benchmark only; verify GPU identity and printed parameters in raw output",
+  "hybrid_gpu_measured": false
+}

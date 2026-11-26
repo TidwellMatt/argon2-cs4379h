@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "latency_ms": 250.0,
+    "max_memory": 64,
+    "min_memory": 64,
+    "min_passes": 3,
+    "workers": 1,
+    "max_cpu_ms": null,
+    "max_p95_ms": null,
+    "max_rss_mib": null,
+    "min_throughput": null,
+    "screen_rounds": 1,
+    "confirm_rounds": 5,
+    "max_tests": 2,
+    "exhaustive": false,
+    "research_relaxed": false
+  },
+  "environment": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "processor": "",
+    "logical_cpus": 5,
+    "ram_mib": 5947.91796875,
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "argon2_cffi": "25.1.0"
+  },
+  "profile_ids": [
+    "rtx4090_hashcat8_cuda"
+  ],
+  "profile_sha256": [
+    "ee78b7dd0e0ebeea4f0cded6ceee8fc5848c8ab582f116571056fb42a501d456"
+  ],
+  "eligible_count": 16,
+  "common_argon2id_count": 193
+}

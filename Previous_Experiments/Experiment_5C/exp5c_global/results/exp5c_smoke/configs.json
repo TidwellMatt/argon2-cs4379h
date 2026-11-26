@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Argon2id baseline",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 8,
+        "t": 3,
+        "p": 1
+      }
+    ],
+    "family": "baseline"
+  },
+  {
+    "name": "Argon2i baseline",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 8,
+        "t": 3,
+        "p": 1
+      }
+    ],
+    "family": "baseline"
+  },
+  {
+    "name": "Argon2d baseline",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 8,
+        "t": 3,
+        "p": 1
+      }
+    ],
+    "family": "baseline"
+  },
+  {
+    "name": "Argon2id -> AES-CTR smoke",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 8,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 1
+      }
+    ],
+    "family": "cipher workload"
+  },
+  {
+    "name": "AES-CTR smoke -> Argon2id",
+    "stages": [
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 1
+      },
+      {
+        "kind": "argon2id",
+        "m": 8,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "cipher workload"
+  },
+  {
+    "name": "Argon2i -> AES-CTR smoke",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 8,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 1
+      }
+    ],
+    "family": "cipher workload"
+  },
+  {
+    "name": "AES-CTR smoke -> Argon2i",
+    "stages": [
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 1
+      },
+      {
+        "kind": "argon2i",
+        "m": 8,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "cipher workload"
+  },
+  {
+    "name": "Argon2d -> AES-CTR smoke",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 8,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 1
+      }
+    ],
+    "family": "cipher workload"
+  },
+  {
+    "name": "AES-CTR smoke -> Argon2d",
+    "stages": [
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 8,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "cipher workload"
+  }
+]

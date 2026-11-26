@@ -1,0 +1,1 @@
+Speed.#01........:     1640 H/s (68.69ms) @ Accel:356 Loops:4 Thr:32 Vec:1

@@ -1,0 +1,47 @@
+hashcat (v8.0.0) starting in backend information mode
+
+Bridge units are selected by the hash mode, so none are listed here.
+Add -m <hash mode> to list the units that mode would use.
+
+CUDA Info:
+==========
+
+CUDA.Version.: 13.5
+
+Backend Device ID #01 (Alias: #02)
+  Name...........: NVIDIA GeForce RTX 4090
+  Processor(s)...: 128
+  Preferred.Thrd.: 32
+  Clock..........: 2520
+  Memory.Total...: 24563 MB
+  Memory.Free....: 23036 MB
+  Memory.Unified.: 0
+  Local.Memory...: 99 KB
+  Cache.Size.....: 72 MB
+  PCI.Addr.BDFe..: 0000:01:00.0
+
+OpenCL Info:
+============
+
+OpenCL Platform ID #1
+  Vendor..: NVIDIA Corporation
+  Name....: NVIDIA CUDA
+  Version.: OpenCL 3.0 CUDA 13.5.49
+
+  Backend Device ID #02 (Alias: #01)
+    Type...........: GPU
+    Vendor.ID......: 32
+    Vendor.........: NVIDIA Corporation
+    Name...........: NVIDIA GeForce RTX 4090
+    Version........: OpenCL 3.0 CUDA
+    Processor(s)...: 128
+    Preferred.Thrd.: 32
+    Clock..........: 2520
+    Memory.Total...: 24563 MB (limited to 6140 MB allocatable in one block)
+    Memory.Free....: 23036 MB
+    Memory.Unified.: 0
+    Local.Memory...: 48 KB
+    OpenCL.Version.: OpenCL C 1.2 
+    Driver.Version.: 621.40
+    PCI.Addr.BDF...: 01:00.0
+

@@ -1,0 +1,133 @@
+{
+  "recommendation": {
+    "configuration": {
+      "config": "id_m64_t6_p8",
+      "memory_mib": 64,
+      "t": 6,
+      "p": 8,
+      "gpu_median_worst": 697.5,
+      "gpu_max_observed": 701.0,
+      "gpu_min_rounds": 20,
+      "gpu_details": [
+        {
+          "profile_id": "rtx4090_hashcat8_cuda",
+          "device": "RTX 4090",
+          "rounds": 20,
+          "median_hps": 697.5,
+          "max_observed_hps": 701.0,
+          "stage": "confirm"
+        }
+      ]
+    },
+    "cpu_median": {
+      "latency_ms": 82.82400000007328,
+      "cpu_ms": 26.041666666666668,
+      "concurrent_hps": 13.067711764175122,
+      "concurrent_p95_ms": 320.73799999989205,
+      "rss_peak_mib": 291.1640625
+    },
+    "cpu_observed_bounds": {
+      "latency_ms": 89.9175000000696,
+      "cpu_ms": 62.5,
+      "concurrent_hps": 12.807773464642038,
+      "concurrent_p95_ms": 340.405799999985,
+      "rss_peak_mib": 291.34765625
+    },
+    "confirmation_rounds": 5,
+    "median_bootstrap_95_exploratory": {
+      "latency_ms": [
+        81.32809999995061,
+        89.9175000000696
+      ],
+      "cpu_ms": [
+        20.833333333333332,
+        62.5
+      ],
+      "concurrent_hps": [
+        12.807773464642038,
+        13.227645912232356
+      ],
+      "concurrent_p95_ms": [
+        311.5877999999839,
+        340.405799999985
+      ],
+      "rss_peak_mib": [
+        290.62109375,
+        291.34765625
+      ]
+    }
+  },
+  "reference": {
+    "configuration": {
+      "config": "id_m64_t3_p4",
+      "memory_mib": 64,
+      "t": 3,
+      "p": 4,
+      "gpu_median_worst": 1391.5,
+      "gpu_max_observed": 1402.0,
+      "gpu_min_rounds": 20,
+      "gpu_details": [
+        {
+          "profile_id": "rtx4090_hashcat8_cuda",
+          "device": "RTX 4090",
+          "rounds": 20,
+          "median_hps": 1391.5,
+          "max_observed_hps": 1402.0,
+          "stage": "confirm"
+        }
+      ]
+    },
+    "cpu_median": {
+      "latency_ms": 71.33910000004562,
+      "cpu_ms": 10.416666666666666,
+      "concurrent_hps": 22.239276452552883,
+      "concurrent_p95_ms": 195.6215999999813,
+      "rss_peak_mib": 291.73828125
+    },
+    "cpu_observed_bounds": {
+      "latency_ms": 77.82819999999901,
+      "cpu_ms": 15.625,
+      "concurrent_hps": 19.871530554961964,
+      "concurrent_p95_ms": 216.43089999997756,
+      "rss_peak_mib": 291.75
+    },
+    "meets_constraints": true,
+    "median_bootstrap_95_exploratory": {
+      "latency_ms": [
+        53.91930000001821,
+        77.82819999999901
+      ],
+      "cpu_ms": [
+        5.208333333333333,
+        15.625
+      ],
+      "concurrent_hps": [
+        19.871530554961964,
+        22.549210833996813
+      ],
+      "concurrent_p95_ms": [
+        185.965699999997,
+        216.43089999997756
+      ],
+      "rss_peak_mib": [
+        291.7109375,
+        291.75
+      ]
+    }
+  },
+  "tested_candidates": 32,
+  "eligible_candidates": 49,
+  "search_complete": false,
+  "stopped_after_first_confirmed": true,
+  "mode": "defense",
+  "objective": "Minimize stored GPU H/s; stop at the first confirmed feasible configuration.",
+  "max_gpu_hps": null,
+  "confirmed_candidates": 1,
+  "pareto_count": 1,
+  "elapsed_seconds": 260.2255427,
+  "profile_ids": [
+    "rtx4090_hashcat8_cuda"
+  ],
+  "research_relaxed": false,
+  "warning": "Empirical GPU profile maximum is not an upper bound on future attackers. CPU bounds are observed round extrema, not statistical confidence bounds. Screening can exclude feasible candidates. No universal security or global optimality claim."
+}

@@ -1,0 +1,8 @@
+[
+  "C:\\Users\\156en\\Downloads\\hashcat-8.0.0\\hashcat-8.0.0\\hashcat.exe",
+  "-b",
+  "-m",
+  "34000",
+  "-D",
+  "2"
+]

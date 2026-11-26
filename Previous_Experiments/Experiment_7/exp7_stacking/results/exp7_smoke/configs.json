@@ -1,0 +1,259 @@
+[
+  {
+    "name": "Argon2id(4MiB,t2,p1)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(4MiB,t2,p1) -> PBKDF2-sha256(1000)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 1000
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "PBKDF2-sha256(1000) -> Argon2id(4MiB,t2,p1)",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 1000
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(4MiB,t2,p1) -> AES-CTR(1 rounds)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      },
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "AES-CTR(1 rounds) -> Argon2id(4MiB,t2,p1)",
+    "stages": [
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 1
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(4MiB,t2,p1) -> Argon2i(4MiB,t1,p1)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      },
+      {
+        "kind": "argon2i",
+        "m": 4,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(4MiB,t1,p1) -> Argon2id(4MiB,t2,p1)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 4,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(4MiB,t2,p1) -> Balloon(32 blocks,t1,python)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      },
+      {
+        "kind": "balloon",
+        "backend": "python",
+        "blocks": 32,
+        "passes": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": true,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Balloon(32 blocks,t1,python) -> Argon2id(4MiB,t2,p1)",
+    "stages": [
+      {
+        "kind": "balloon",
+        "backend": "python",
+        "blocks": 32,
+        "passes": 1
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": true,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(4MiB,t2,p1) -> bcrypt-PBKDF(1)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      },
+      {
+        "kind": "bcrypt_pbkdf",
+        "rounds": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "bcrypt-PBKDF(1) -> Argon2id(4MiB,t2,p1)",
+    "stages": [
+      {
+        "kind": "bcrypt_pbkdf",
+        "rounds": 1
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(4MiB,t2,p1) -> yescrypt(N1024,r8)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      },
+      {
+        "kind": "yescrypt",
+        "n": 1024,
+        "r": 8
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": true,
+    "contains_argon2d": false
+  },
+  {
+    "name": "yescrypt(N1024,r8) -> Argon2id(4MiB,t2,p1)",
+    "stages": [
+      {
+        "kind": "yescrypt",
+        "n": 1024,
+        "r": 8
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 2,
+        "p": 1
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(4MiB,t2,p1)",
+    "exploratory_backend": true,
+    "contains_argon2d": false
+  }
+]

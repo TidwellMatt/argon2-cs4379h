@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Argon2id baseline",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 64,
+        "t": 3
+      }
+    ],
+    "family": "baseline"
+  },
+  {
+    "name": "Argon2id tuned t=1",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 154,
+        "t": 1
+      }
+    ],
+    "family": "tuned standalone"
+  },
+  {
+    "name": "Argon2id tuned t=2",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 90,
+        "t": 2
+      }
+    ],
+    "family": "tuned standalone"
+  },
+  {
+    "name": "PBKDF2-sha256 (a.t=1) -> Argon2id",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 192000
+      },
+      {
+        "kind": "argon2id",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha256 (a.t=1)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 192000
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha512 (a.t=1)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 108000
+      }
+    ],
+    "family": "PBKDF2 cascade"
+  }
+]

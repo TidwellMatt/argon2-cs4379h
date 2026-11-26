@@ -1,0 +1,2 @@
+rank,config,memory_mib,t,p,gpu_max_observed,latency_ms,cpu_ms,concurrent_hps,concurrent_p95_ms,rss_peak_mib,latency_gpu_product,objective_value,pareto
+1,id_m128_t5_p8,128,5,8,409.0,75.3748999995878,552.0833333333334,16.04002520950699,256.08680000004824,552.0625,30.82833409983141,409.0,True

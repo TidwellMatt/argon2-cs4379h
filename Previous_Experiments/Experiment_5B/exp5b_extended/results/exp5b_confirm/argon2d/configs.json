@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Argon2d baseline",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 3
+      }
+    ],
+    "family": "baseline"
+  },
+  {
+    "name": "Argon2d tuned t=1",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 163,
+        "t": 1
+      }
+    ],
+    "family": "tuned standalone"
+  },
+  {
+    "name": "Argon2d tuned t=2",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 79,
+        "t": 2
+      }
+    ],
+    "family": "tuned standalone"
+  },
+  {
+    "name": "Argon2d 64 MiB -> Argon2d 91 MiB",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 91,
+        "t": 1
+      }
+    ],
+    "family": "double Argon2"
+  },
+  {
+    "name": "Argon2d 64 MiB -> Argon2id 92 MiB",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      },
+      {
+        "kind": "argon2id",
+        "m": 92,
+        "t": 1
+      }
+    ],
+    "family": "mixed Argon2"
+  },
+  {
+    "name": "Argon2id 92 MiB -> Argon2d 64 MiB (reverse)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 92,
+        "t": 1
+      },
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1
+      }
+    ],
+    "family": "mixed Argon2"
+  }
+]

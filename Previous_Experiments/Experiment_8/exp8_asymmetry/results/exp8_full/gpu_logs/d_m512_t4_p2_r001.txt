@@ -1,0 +1,72 @@
+hashcat (v8.0.0) starting
+
+Initializing bridges. Please be patient...Initialized bridgesInitializing backend runtimes. Please be patient...Initialized backend runtimesInitializing backend devices. Please be patient...Initialized backend devicesMinimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+Minimum salt length supported by kernel: 0
+Maximum salt length supported by kernel: 256
+
+Counting lines in C:\Users\156en\Downloads\Argon2_Experiment_8\exp8_asymmetry\results\exp8_full\synthetic_inputs\d_m512_t4_p2.phc. Please be patient...Counted lines in C:\Users\156en\Downloads\Argon2_Experiment_8\exp8_asymmetry\results\exp8_full\synthetic_inputs\d_m512_t4_p2.phcParsed Hashes: 1/1 (100.00%)Parsed Hashes: 1/1 (100.00%)Sorting hashes. Please be patient...Sorted hashesRemoving duplicate hashes. Please be patient...Removed duplicate hashesSorting salts. Please be patient...Sorted saltsGenerating bitmap tables...Generated bitmap tablesInitializing feed plugin wordlist. Please be patient...Initialized feed plugin wordlistDictionary cache hit:
+* Filename..: C:\Users\156en\Downloads\Argon2_Experiment_8\exp8_asymmetry\results\exp8_full\synthetic_inputs\workload.txt
+* Passwords.: 1000000
+* Bytes.....: 23000000
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 13 bits, 8192 entries, 0x00001fff mask, 32768 bytes
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Single-Hash
+* Single-Salt
+* Slow-Hash-DimensionY-LOOP
+
+Watchdog: Temperature abort trigger set to 85c
+
+Initializing bridge salts. Please be patient...Initialized bridge saltsInitializing device kernels and memory. Please be patient...Initializing backend runtime for device #1. Please be patient...Initialized backend runtime for device #1Host memory allocated for this attack: 512 MB (20133 MB free)
+
+Initialized device kernels and memoryStarting self-test. Please be patient...Finished self-testStarting autotune. Please be patient...Finished autotune
+                                                                                      
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 3, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [80, 1000000], "restore_point": 80, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 55, "temp": 63, "util": 96, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795660840 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 3, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [200, 1000000], "restore_point": 200, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 54, "temp": 62, "util": 87, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661102 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 3, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [280, 1000000], "restore_point": 280, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 53, "temp": 63, "util": 97, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661200 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 3, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [400, 1000000], "restore_point": 400, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 53, "temp": 63, "util": 96, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661227 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 3, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [520, 1000000], "restore_point": 520, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 53, "temp": 62, "util": 95, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661397 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 3, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [640, 1000000], "restore_point": 640, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 53, "temp": 62, "util": 99, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661518 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 3, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [760, 1000000], "restore_point": 760, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 52, "temp": 62, "util": 96, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661593 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 3, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [880, 1000000], "restore_point": 880, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 53, "temp": 62, "util": 97, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661542 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+                                                                                      
+Runtime limit reached, aborting
+
+
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 11, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [1000, 1000000], "restore_point": 1000, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 53, "temp": 62, "util": 97, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661493 }
+
+[s]tatus [p]ause [r]ewind [a]dvance [b]ypass [c]heckpoint [f]inish [e]xtend [q]uit => 
+                                                                                      
+{ "session": "hashcat", "guess": { "guess_base": "C:\\Users\\156en\\Downloads\\Argon2_Experiment_8\\exp8_asymmetry\\results\\exp8_full\\synthetic_inputs\\workload.txt", "guess_base_count": 1, "guess_base_offset": 1, "guess_base_percent": 100.00, "guess_mask_length": 18446744073709551615, "guess_mod": null, "guess_mod_count": 1, "guess_mod_offset": 1, "guess_mod_percent": 100.00, "guess_mode": 15 }, "status": 11, "target": "$argon2d$v=19$m=524288,t=4,p=2$P77/4fdyNtUrltIYv4QF...V4i1QY", "progress": [1000, 1000000], "restore_point": 1000, "recovered_hashes": [0, 1], "recovered_salts": [0, 1], "rejected": 0, "brain_rejected_position": 0, "brain_rejected_candidate": 0, "devices": [ { "device_id": 1, "device_name": "NVIDIA GeForce RTX 4090", "device_type": "GPU", "speed": 53, "temp": 62, "util": 97, "fanspeed": 40, "corespeed": 2715, "memoryspeed": 10251, "buslanes": 16, "power": -1 } ], "time_start": 1795642678, "estimated_stop": 1795661493 }
+Started: Wed Nov 25 15:37:56 2026
+Stopped: Wed Nov 25 15:38:17 2026

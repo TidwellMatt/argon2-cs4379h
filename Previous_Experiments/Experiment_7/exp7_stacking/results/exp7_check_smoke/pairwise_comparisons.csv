@@ -1,0 +1,191 @@
+hybrid,control,rounds,workers,product_ratio,improvement_pct,simultaneous_95_low,simultaneous_95_high,lower_product_supported,at_least_5pct_lower_supported
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2d(192MiB,t6,p4)",1,8,1.256793693367224,-25.67936933672239,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2i(64MiB,t3,p4)",1,8,1.0655565178699837,-6.555651786998373,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2id(128MiB,t6,p4)",1,8,1.1540477787060328,-15.404777870603281,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2d(128MiB,t6,p4)",1,8,1.1972971235745946,-19.729712357459462,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2i(256MiB,t6,p4)",1,8,1.1782245463997618,-17.822454639976183,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2d(256MiB,t6,p4)",1,8,1.1602687577506607,-16.026875775066074,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2id(256MiB,t4,p4)",1,8,1.0802081116460451,-8.020811164604513,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2i(128MiB,t6,p4)",1,8,1.231162987216258,-23.116298721625796,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2d(192MiB,t4,p4)",1,8,1.107726015549059,-10.772601554905892,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2i(64MiB,t6,p4)",1,8,1.0806387161447948,-8.063871614479478,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2id(64MiB,t4,p4)",1,8,1.0780762867941205,-7.807628679412049,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2id(192MiB,t3,p4)",1,8,1.0181519947152375,-1.815199471523754,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2i(170MiB,t3,p4)",1,8,1.0283650214671454,-2.836502146714537,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2id(135MiB,t4,p4)",1,8,1.1520556491171703,-15.20556491171703,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2d(157MiB,t3,p4)",1,8,1.124116514207938,-12.41165142079379,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2d(64MiB,t3,p4)",1,8,0.9228659366187395,7.71340633812605,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2d(64MiB,t3,p1)",1,8,0.41532010755976256,58.46798924402374,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2id(64MiB,t3,p1)",1,8,0.41219598875215574,58.78040112478442,,,False,False
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2i(64MiB,t3,p1)",1,8,0.4042175362691891,59.578246373081086,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2d(192MiB,t6,p4)",1,8,1.4647668812987809,-46.476688129878085,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2i(64MiB,t3,p4)",1,8,1.241883935100202,-24.1883935100202,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2id(128MiB,t6,p4)",1,8,1.3450186570844753,-34.50186570844753,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2d(128MiB,t6,p4)",1,8,1.3954248680128654,-39.542486801286536,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2i(256MiB,t6,p4)",1,8,1.3731961764351244,-37.31961764351244,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2d(256MiB,t6,p4)",1,8,1.3522690786309195,-35.22690786309195,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2id(256MiB,t4,p4)",1,8,1.2589600625781487,-25.896006257814875,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2i(128MiB,t6,p4)",1,8,1.4348948269493913,-43.48948269493913,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2d(192MiB,t4,p4)",1,8,1.2910316066132759,-29.103160661327586,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2i(64MiB,t6,p4)",1,8,1.259461923155613,-25.9461923155613,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2id(64MiB,t4,p4)",1,8,1.2564754651010062,-25.647546510100618,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2id(192MiB,t3,p4)",1,8,1.1866349503962785,-18.663495039627854,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2i(170MiB,t3,p4)",1,8,1.198538020425165,-19.8538020425165,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2id(135MiB,t4,p4)",1,8,1.3426968715277676,-34.26968715277676,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2d(157MiB,t3,p4)",1,8,1.310134391525551,-31.0134391525551,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2d(64MiB,t3,p4)",1,8,1.0755810336827736,-7.558103368277358,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2d(64MiB,t3,p1)",1,8,0.48404693777631336,51.59530622236866,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2id(64MiB,t3,p1)",1,8,0.48040584235486455,51.95941576451355,,,False,False
+"Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)","Argon2i(64MiB,t3,p1)",1,8,0.4711071221092571,52.88928778907429,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(192MiB,t6,p4)",1,8,1.5251780388331158,-52.51780388331157,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t3,p4)",1,8,1.2931027652093154,-29.310276520931545,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(128MiB,t6,p4)",1,8,1.4004910568343272,-40.049105683432714,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(128MiB,t6,p4)",1,8,1.4529761634477452,-45.29761634477452,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(256MiB,t6,p4)",1,8,1.429830697326676,-42.98306973266759,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(256MiB,t6,p4)",1,8,1.4080405064130301,-40.804050641303014,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(256MiB,t4,p4)",1,8,1.3108831608136904,-31.088316081369037,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(128MiB,t6,p4)",1,8,1.4940739758929973,-49.40739758929973,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(192MiB,t4,p4)",1,8,1.3442774266578725,-34.42774266578725,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t6,p4)",1,8,1.3114057195505633,-31.14057195505633,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(64MiB,t4,p4)",1,8,1.3082960914609767,-30.82960914609767,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(192MiB,t3,p4)",1,8,1.2355751550386544,-23.557515503865446,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(170MiB,t3,p4)",1,8,1.247969141572985,-24.7969141572985,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(135MiB,t4,p4)",1,8,1.3980735142293015,-39.80735142293015,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(157MiB,t3,p4)",1,8,1.3641680648206642,-36.41680648206642,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(64MiB,t3,p4)",1,8,1.119941058541568,-11.994105854156789,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(64MiB,t3,p1)",1,8,0.5040104119545997,49.598958804540025,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(64MiB,t3,p1)",1,8,0.5002191473888925,49.97808526111075,,,False,False
+"ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t3,p1)",1,8,0.4905369214395467,50.94630785604532,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2d(192MiB,t6,p4)",1,8,1.1864845477858148,-18.64845477858148,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t3,p4)",1,8,1.005945804723089,-0.5945804723088921,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2id(128MiB,t6,p4)",1,8,1.0894865752967826,-8.948657529678261,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2d(128MiB,t6,p4)",1,8,1.1303164105030088,-13.03164105030088,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2i(256MiB,t6,p4)",1,8,1.112310815611963,-11.231081561196298,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2d(256MiB,t6,p4)",1,8,1.0953595324475898,-9.535953244758977,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2id(256MiB,t4,p4)",1,8,1.019777740471554,-1.9777740471554006,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2i(128MiB,t6,p4)",1,8,1.162287707081209,-16.228770708120898,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2d(192MiB,t4,p4)",1,8,1.0457562029198382,-4.575620291983817,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t6,p4)",1,8,1.0201842555477116,-2.018425554771164,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2id(64MiB,t4,p4)",1,8,1.0177651768672462,-1.7765176867246213,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2id(192MiB,t3,p4)",1,8,0.9611932454803946,3.8806754519605358,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2i(170MiB,t3,p4)",1,8,0.9708349221463525,2.9165077853647525,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2id(135MiB,t4,p4)",1,8,1.087605891946089,-8.760589194608892,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2d(157MiB,t3,p4)",1,8,1.0612297635303798,-6.122976353037979,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2d(64MiB,t3,p4)",1,8,0.871237800805926,12.876219919407394,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2d(64MiB,t3,p1)",1,8,0.39208574375016186,60.79142562498381,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2id(64MiB,t3,p1)",1,8,0.3891363983562162,61.086360164378384,,,False,False
+"yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t3,p1)",1,8,0.3816042865734772,61.83957134265228,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2d(192MiB,t6,p4)",1,8,1.2654544957786382,-26.54544957786382,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2i(64MiB,t3,p4)",1,8,1.072899468831761,-7.289946883176102,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2id(128MiB,t6,p4)",1,8,1.1620005396384383,-16.20005396384383,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2d(128MiB,t6,p4)",1,8,1.2055479239006623,-20.554792390066233,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2i(256MiB,t6,p4)",1,8,1.186343913998836,-18.63439139988361,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2d(256MiB,t6,p4)",1,8,1.1682643886231332,-16.82643886231332,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2id(256MiB,t4,p4)",1,8,1.08765202950428,-8.765202950427998,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2i(128MiB,t6,p4)",1,8,1.2396471635968367,-23.96471635968367,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2d(192MiB,t4,p4)",1,8,1.1153595644738228,-11.53595644738228,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2i(64MiB,t6,p4)",1,8,1.088085601379856,-8.80856013798561,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2id(64MiB,t4,p4)",1,8,1.0855055138451721,-8.550551384517213,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2id(192MiB,t3,p4)",1,8,1.0251682721659865,-2.5168272165986494,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2i(170MiB,t3,p4)",1,8,1.0354516788117365,-3.54516788117365,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2id(135MiB,t4,p4)",1,8,1.1599946819088012,-15.999468190880117,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2d(157MiB,t3,p4)",1,8,1.1318630131507186,-13.186301315071859,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2d(64MiB,t3,p4)",1,8,0.9292255798692282,7.077442013077184,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2d(64MiB,t3,p1)",1,8,0.41818215676326015,58.18178432367398,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2id(64MiB,t3,p1)",1,8,0.415036509063644,58.4963490936356,,,False,False
+"Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)","Argon2i(64MiB,t3,p1)",1,8,0.40700307555963267,59.29969244403674,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2d(192MiB,t6,p4)",1,8,1.5360474432394777,-53.60474432394777,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2i(64MiB,t3,p4)",1,8,1.3023182512287697,-30.231825122876966,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2id(128MiB,t6,p4)",1,8,1.4104718612234806,-41.04718612234806,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2d(128MiB,t6,p4)",1,8,1.4633310106270296,-46.333101062702966,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2i(256MiB,t6,p4)",1,8,1.4400205949557847,-44.00205949557847,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2d(256MiB,t6,p4)",1,8,1.4180751130589868,-41.80751130589868,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2id(256MiB,t4,p4)",1,8,1.320225361423447,-32.02253614234469,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2i(128MiB,t6,p4)",1,8,1.504721712644719,-50.472171264471896,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2d(192MiB,t4,p4)",1,8,1.3538576163882905,-35.38576163882905,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2i(64MiB,t6,p4)",1,8,1.3207516442516014,-32.07516442516014,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2id(64MiB,t4,p4)",1,8,1.3176198549425384,-31.761985494253842,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2id(192MiB,t3,p4)",1,8,1.2443806621287274,-24.438066212872744,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2i(170MiB,t3,p4)",1,8,1.256862976221165,-25.686297622116495,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2id(135MiB,t4,p4)",1,8,1.4080370896474266,-40.803708964742654,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2d(157MiB,t3,p4)",1,8,1.3738900080936767,-37.389000809367666,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2d(64MiB,t3,p4)",1,8,1.1279224823272729,-12.792248232727289,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2d(64MiB,t3,p1)",1,8,0.5076023158852011,49.239768411479886,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2id(64MiB,t3,p1)",1,8,0.5037840323179564,49.621596768204355,,,False,False
+"Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)","Argon2i(64MiB,t3,p1)",1,8,0.49403280456900583,50.59671954309941,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2d(192MiB,t6,p4)",1,8,3.231006105218229,-223.10061052182292,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2i(64MiB,t3,p4)",1,8,2.7393673542941888,-173.9367354294189,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2id(128MiB,t6,p4)",1,8,2.9668635659068547,-196.68635659068548,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2d(128MiB,t6,p4)",1,8,3.0780503884175725,-207.80503884175724,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2i(256MiB,t6,p4)",1,8,3.0290179866643245,-202.90179866643246,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2d(256MiB,t6,p4)",1,8,2.982856661177547,-198.2856661177547,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2id(256MiB,t4,p4)",1,8,2.7770341481295393,-177.70341481295392,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2i(128MiB,t6,p4)",1,8,3.165113852184279,-216.5113852184279,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2d(192MiB,t4,p4)",1,8,2.8477780705272044,-184.77780705272045,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2i(64MiB,t6,p4)",1,8,2.7781411601807116,-177.81411601807116,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2id(64MiB,t4,p4)",1,8,2.7715535834607508,-177.15535834607508,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2id(192MiB,t3,p4)",1,8,2.617498264294554,-161.74982642945542,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2i(170MiB,t3,p4)",1,8,2.643754245655951,-164.3754245655951,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2id(135MiB,t4,p4)",1,8,2.961742134364056,-196.1742134364056,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2d(157MiB,t3,p4)",1,8,2.8899152975946985,-188.99152975946984,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2d(64MiB,t3,p4)",1,8,2.3725337668780258,-137.2533766878026,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2d(64MiB,t3,p1)",1,8,1.0677184411629543,-6.7718441162954335,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2id(64MiB,t3,p1)",1,8,1.0596868549176728,-5.968685491767278,,,False,False
+"AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)","Argon2i(64MiB,t3,p1)",1,8,1.0391755897683446,-3.9175589768344565,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2d(192MiB,t6,p4)",1,8,1.243922480966651,-24.392248096665092,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t3,p4)",1,8,1.054643824451246,-5.464382445124594,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2id(128MiB,t6,p4)",1,8,1.1422288189527119,-14.22288189527119,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2d(128MiB,t6,p4)",1,8,1.1850352339220174,-18.503523392201735,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2i(256MiB,t6,p4)",1,8,1.1661579849009933,-16.61579849009933,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2d(256MiB,t6,p4)",1,8,1.1483860870294653,-14.838608702946532,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2id(256MiB,t4,p4)",1,8,1.0691453667299982,-6.914536672999816,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2i(128MiB,t6,p4)",1,8,1.2185542667939522,-21.85542667939522,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2d(192MiB,t4,p4)",1,8,1.0963814512796657,-9.638145127966569,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t6,p4)",1,8,1.069571561275075,-6.957156127507491,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2id(64MiB,t4,p4)",1,8,1.0670353745548402,-6.703537455484021,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2id(192MiB,t3,p4)",1,8,1.0077247856599978,-0.772478565999779,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2i(170MiB,t3,p4)",1,8,1.017833217650434,-1.7833217650434108,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2id(135MiB,t4,p4)",1,8,1.1402570913782792,-14.025709137827924,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2d(157MiB,t3,p4)",1,8,1.1126040897792338,-11.260408977923376,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2d(64MiB,t3,p4)",1,8,0.9134145815155412,8.658541848445878,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2d(64MiB,t3,p1)",1,8,0.41106668605801366,58.89333139419863,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2id(64MiB,t3,p1)",1,8,0.40797456231606444,59.202543768393554,,,False,False
+"lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t3,p1)",1,8,0.4000778196292864,59.99221803707135,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2d(192MiB,t6,p4)",1,8,1.2748435104377491,-27.484351043774915,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2i(64MiB,t3,p4)",1,8,1.0808598252682962,-8.085982526829616,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2id(128MiB,t6,p4)",1,8,1.1706219797115145,-17.06219797115145,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2d(128MiB,t6,p4)",1,8,1.2144924629319134,-21.449246293191337,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2i(256MiB,t6,p4)",1,8,1.1951459692575899,-19.514596925758987,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2d(256MiB,t6,p4)",1,8,1.176932303200141,-17.69323032001411,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2id(256MiB,t4,p4)",1,8,1.0957218422735997,-9.572184227359969,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2i(128MiB,t6,p4)",1,8,1.2488447012641035,-24.884470126410353,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2d(192MiB,t4,p4)",1,8,1.1236349527520721,-12.363495275207214,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2i(64MiB,t6,p4)",1,8,1.0961586310271505,-9.61586310271505,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2id(64MiB,t4,p4)",1,8,1.0935594005839182,-9.35594005839182,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2id(192MiB,t3,p4)",1,8,1.0327744879307812,-3.2774487930781193,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2i(170MiB,t3,p4)",1,8,1.0431341921092079,-4.313419210920788,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2id(135MiB,t4,p4)",1,8,1.1686012395600356,-16.86012395600356,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2d(157MiB,t3,p4)",1,8,1.140260848440749,-14.026084844074905,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2d(64MiB,t3,p4)",1,8,0.9361199507218481,6.388004927815194,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2d(64MiB,t3,p1)",1,8,0.42128485102301144,57.87151489769886,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2id(64MiB,t3,p1)",1,8,0.41811586425236386,58.18841357476361,,,False,False
+"AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)","Argon2i(64MiB,t3,p1)",1,8,0.41002282684700025,58.997717315299965,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(192MiB,t6,p4)",1,8,1.6992373432435182,-69.92373432435181,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t3,p4)",1,8,1.440676728453438,-44.06767284534381,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(128MiB,t6,p4)",1,8,1.5603205934385094,-56.03205934385094,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(128MiB,t6,p4)",1,8,1.6187955064328445,-61.87955064328445,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(256MiB,t6,p4)",1,8,1.593008588867608,-59.3008588867608,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(256MiB,t6,p4)",1,8,1.5687316158361835,-56.87316158361835,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(256MiB,t4,p4)",1,8,1.4604862925956756,-46.04862925956756,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(128MiB,t6,p4)",1,8,1.6645835625512109,-66.45835625512109,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(192MiB,t4,p4)",1,8,1.4976916431369478,-49.76916431369478,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t6,p4)",1,8,1.4610684877867446,-46.10684877867446,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(64MiB,t4,p4)",1,8,1.4576039767336828,-45.76039767336828,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(192MiB,t3,p4)",1,8,1.3765838416031058,-37.658384160310575,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(170MiB,t3,p4)",1,8,1.390392278529528,-39.0392278529528,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(135MiB,t4,p4)",1,8,1.5576271513820759,-55.76271513820758,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(157MiB,t3,p4)",1,8,1.5198522790014788,-51.985227900147876,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(64MiB,t3,p4)",1,8,1.2477531281275798,-24.775312812757978,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2d(64MiB,t3,p1)",1,8,0.5615300585051997,43.84699414948003,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2id(64MiB,t3,p1)",1,8,0.5573061199458073,44.26938800541927,,,False,False
+"AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)","Argon2i(64MiB,t3,p1)",1,8,0.5465189203665127,45.348107963348724,,,False,False

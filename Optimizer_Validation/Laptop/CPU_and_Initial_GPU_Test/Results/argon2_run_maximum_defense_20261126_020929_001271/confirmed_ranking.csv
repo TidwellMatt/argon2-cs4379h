@@ -1,0 +1,2 @@
+rank,config,memory_mib,t,p,gpu_max_observed,latency_ms,cpu_ms,concurrent_hps,concurrent_p95_ms,rss_peak_mib,latency_gpu_product,objective_value,pareto
+1,id_m64_t6_p8,64,6,8,701.0,82.82400000007328,26.041666666666668,13.067711764175122,320.73799999989205,291.1640625,58.05962400005137,701.0,True

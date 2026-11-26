@@ -1,0 +1,12 @@
+{
+  "planned_configs": 579,
+  "fully_measured_configs": 579,
+  "planned_rounds": 2,
+  "cpu_records": 1158,
+  "gpu_records": 1158,
+  "cpu_non_ok": 0,
+  "gpu_non_ok": 0,
+  "point_estimate_latency_gpu_improvements": 45,
+  "point_estimate_strict_resource_improvements": 2,
+  "warning": "Only same-variant comparisons are interpreted. GPU throughput is implementation/hardware specific; unadjusted bootstrap intervals are exploratory; no cryptographic security proof."
+}

@@ -1,0 +1,8 @@
+name,order,m,t,iterations,n,sp
+Argon2id alone,a,16384,3,0,0,0
+PBKDF2 -> Argon2id (t=2),pa,16384,2,109000,0,0
+Argon2id -> PBKDF2 (t=2),ap,16384,2,109000,0,0
+PBKDF2 -> Argon2id (t=1),pa,16384,1,187000,0,0
+Argon2id -> PBKDF2 (t=1),ap,16384,1,187000,0,0
+scrypt -> Argon2id,sa,16384,2,0,8192,1
+Argon2id -> scrypt,as,16384,2,0,8192,1

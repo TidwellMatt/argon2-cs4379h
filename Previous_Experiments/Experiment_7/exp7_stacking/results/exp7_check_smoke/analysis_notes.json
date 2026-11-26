@@ -1,0 +1,9 @@
+{
+  "complete_rounds": [
+    1
+  ],
+  "primary_workers": 8,
+  "bootstrap_samples": 0,
+  "intervals": "Approximate simultaneous 95% paired-round bootstrap intervals for all hybrid/control comparisons; marginal intervals for individual product scores.",
+  "scope": "Synthetic CPU workloads; selected controls only; no security or GPU claims."
+}

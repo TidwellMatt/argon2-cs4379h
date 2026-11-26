@@ -1,0 +1,46 @@
+hashcat (v8.0.0) starting in benchmark mode
+
+Benchmarking always uses hand-optimized kernel code.
+You can use it in your cracking session by setting the -O option.
+Note: Using optimized kernel code limits the maximum supported password length.
+
+Initializing bridges. Please be patient...Kernel C:\Users\156en\Downloads\hashcat-8.0.0\hashcat-8.0.0/OpenCL/m34000-optimized.cl:
+Optimized kernel requested, but not available or not required
+Falling back to pure kernel
+
+Initialized bridgesInitializing backend runtimes. Please be patient...Initialized backend runtimesInitializing backend devices. Please be patient...Successfully initialized the NVIDIA main driver CUDA runtime library.
+
+Failed to initialize NVIDIA RTC library.
+
+* Device #1: CUDA SDK Toolkit not installed or incorrectly installed.
+             CUDA SDK Toolkit required for proper device support and utilization.
+             For more information, see: https://hashcat.net/faq/wrongdriver
+             Falling back to OpenCL runtime.
+
+The NVIDIA RTC library that hashcat compiles its kernels with comes with the CUDA Toolkit.
+Install the Windows build of it from https://developer.nvidia.com/cuda-downloads, choosing
+Windows and the version of it you are on. The GPU driver on its own does not carry it.
+
+Running hashcat inside WSL2 reaches CUDA as well, using the Linux build of hashcat and the
+Linux CUDA Toolkit installed inside it. No NVIDIA GPU driver is installed inside WSL2 itself.
+For all details: https://docs.nvidia.com/cuda/wsl-user-guide/index.html
+
+Initialized backend devicesOpenCL API (OpenCL 3.0 CUDA 13.3.71) - Platform #1 [NVIDIA Corporation]
+=======================================================================
+* Device #01: NVIDIA GeForce RTX 4090, 24448/24563 MB (6140 MB allocatable), 128MCU
+
+Benchmark relevant options:
+===========================
+* --backend-devices-virtmulti=1
+* --backend-devices-virthost=1
+* --opencl-device-types=2
+* --optimized-kernel-enable
+
+-------------------------------------------------------------
+* Hash-Mode 34000 (Argon2) [m=65536, t=3, p=1] [Kernel: pure]
+-------------------------------------------------------------
+
+Speed.#01........:     1640 H/s (68.69ms) @ Accel:356 Loops:4 Thr:32 Vec:1
+
+Started: Tue Nov 24 22:28:18 2026
+Stopped: Tue Nov 24 22:28:28 2026

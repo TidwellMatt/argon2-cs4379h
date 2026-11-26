@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+vendor/
+hashcat-8.0.0.7z
+results/

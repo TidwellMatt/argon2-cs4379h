@@ -1,0 +1,104 @@
+{
+  "stage": "confirm",
+  "configs": [
+    [
+      "id",
+      32,
+      6,
+      1
+    ],
+    [
+      "id",
+      32,
+      6,
+      4
+    ],
+    [
+      "id",
+      32,
+      6,
+      8
+    ],
+    [
+      "id",
+      64,
+      3,
+      1
+    ],
+    [
+      "id",
+      64,
+      3,
+      4
+    ],
+    [
+      "id",
+      64,
+      3,
+      8
+    ],
+    [
+      "id",
+      64,
+      4,
+      4
+    ],
+    [
+      "id",
+      64,
+      4,
+      8
+    ],
+    [
+      "id",
+      64,
+      5,
+      8
+    ],
+    [
+      "id",
+      64,
+      6,
+      8
+    ],
+    [
+      "id",
+      128,
+      2,
+      8
+    ],
+    [
+      "id",
+      128,
+      6,
+      4
+    ],
+    [
+      "id",
+      135,
+      4,
+      4
+    ],
+    [
+      "id",
+      256,
+      1,
+      8
+    ],
+    [
+      "id",
+      2048,
+      1,
+      4
+    ]
+  ],
+  "rounds": 20,
+  "gpu_seconds": 18,
+  "workers": 4,
+  "cpu_inner": 3,
+  "backend": "cuda",
+  "hashcat": "C:\\Users\\156en\\Downloads\\hashcat-8.0.0\\hashcat-8.0.0\\hashcat.exe",
+  "hashcat_sha256": "1af92a590ecfaf94d772f622cf6e6731bb33a46a7a0029783417a6ffcb3c7083",
+  "seed": 808,
+  "script_sha256": "0641a77c7d5b99e6855addd7ac9d4f2f1d130adc413be7ef4a1a00616e4ca4e3"
+}

@@ -190,3 +190,15 @@ September 2021. <https://www.rfc-editor.org/rfc/rfc9106>
 Our professor approved AI assistance on this project. Every AI output we relied
 on (code, claims, citations) is logged in [`AI_AUDIT.md`](AI_AUDIT.md) with how
 we checked it, including the mistakes we caught.
+
+
+## Follow-up research: hardware-aware Argon2id optimizer
+
+Caleb Tyler's follow-up contribution is in [Argon2_Optimizer](Argon2_Optimizer/README.md). It combines local CPU benchmarking with a stored RTX 4090 GPU profile and configurable optimization objectives. See the [desktop instructions](Argon2_Optimizer/DESKTOP_README.md), [previous experiments](Previous_Experiments/README.md), [optimizer validation](Optimizer_Validation/README.md), and the consolidated [AI audit](AI_AUDIT.md). The prior stacking experiments include negative results. The tool's recommendations are conditional on the measured attacker hardware, parameter grid and defender constraints, not universal security guarantees.
+
+### Windows desktop download
+
+- [Argon2 Optimizer v4.4.0 — Windows pre-release](https://github.com/EG156/argon2-cs4379h/releases/tag/v4.4.0)
+- [Download Argon2Optimizer.exe](https://github.com/EG156/argon2-cs4379h/releases/download/v4.4.0/Argon2Optimizer.exe)
+
+The executable is distributed from Caleb's fork. It is an unsigned research prototype tested on two Windows systems. Normal optimization requires neither Python nor a separate Hashcat installation; GPU profile collection requires compatible GPU drivers and runtime support. Some security products may flag the bundled Hashcat engine or unsigned package; do not disable antivirus protection. See the [third-party notices](Argon2_Optimizer/third_party_notices/) and [build instructions](Argon2_Optimizer/DESKTOP_README.md). macOS and Linux builds have not been independently verified.

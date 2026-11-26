@@ -1,0 +1,21 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "processor": "",
+  "logical_cpus": 5,
+  "openssl": "OpenSSL 3.5.5 27 Jan 2026",
+  "argon2_cffi": "25.1.0",
+  "psutil": "7.2.2",
+  "quick": true,
+  "calibration_target_ms": 35.84963299999799,
+  "checks": "PASS: PBKDF2 and scrypt known answers; Argon2 high-level cross-check; deterministic tags and changed inputs",
+  "memory_mib": 16,
+  "passes": 3,
+  "worker_counts": [
+    1,
+    2
+  ],
+  "repeats": 2,
+  "jobs_per_worker": 3,
+  "timestamp_utc": "2026-11-24T22:58:58Z"
+}

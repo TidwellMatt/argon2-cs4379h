@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "gpu_hps": 706,
+  "samples": 7,
+  "gpu_temp_max_c": 67,
+  "elapsed_s": 28.06254409999997,
+  "config": "id_m64_t3_p4",
+  "round": 1
+}

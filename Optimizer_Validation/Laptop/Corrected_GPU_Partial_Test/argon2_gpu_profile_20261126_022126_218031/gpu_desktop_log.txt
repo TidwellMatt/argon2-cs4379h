@@ -1,0 +1,4 @@
+NVIDIA GeForce RTX 3070 Laptop GPU | 0/386 saved GPU measurements.
+Pause takes effect after the current measurement.
+1/386 id_m64_t3_p4 round 1: ok 706 | approx 180 min remaining (current pace)
+Paused. All committed measurements preserved.

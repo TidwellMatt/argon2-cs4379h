@@ -7,3 +7,19 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+
+
+# Caleb Tyler optimizer generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+.env
+.env.*
+!.env.example
+**/vendor/hashcat-engine.zip
+**/native/*.so
+**/native/*.dll
+**/native/*.dylib

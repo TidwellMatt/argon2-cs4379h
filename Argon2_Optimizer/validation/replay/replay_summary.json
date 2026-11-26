@@ -1,0 +1,9 @@
+{
+  "scenarios": 80,
+  "feasible_scenarios": 75,
+  "matching_scenarios": 80,
+  "strictly_better_than_cpu_only_heuristic": 27,
+  "total_exhaustive_tests": 2164,
+  "total_guided_tests": 823,
+  "warning": "In-sample deterministic replay of stored point estimates (latency and memory constraints only); not an independent CPU experiment or evidence of cross-hardware generalization. Matching the exhaustive oracle is expected by construction. CPU-only heuristic is an illustrative comparator, not an implementation of Cryptsetup or Multifactor."
+}

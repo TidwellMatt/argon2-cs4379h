@@ -1,0 +1,21 @@
+{
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "logical_cpus": 24,
+  "workers": 8,
+  "rounds": 500,
+  "min_seconds": 0.6,
+  "selection_sha256": "eee2080f026a672820b14c4751134db306aeaa50fef0721d50f2b515195a9f89",
+  "packages": {
+    "argon2-cffi": "25.1.0",
+    "cryptography": "50.0.2",
+    "psutil": "7.2.2",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  },
+  "native_source_revisions": "7b927d4a297a423baa7cabc4d8b17ca70ce5929c\n9c89da4665276e42399e0cb2b2d20e2236abb116\n",
+  "synthetic_only": true,
+  "smoke": false,
+  "seed": 73018,
+  "available_ram_mib": 15179.89453125
+}

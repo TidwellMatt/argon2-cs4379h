@@ -1,0 +1,378 @@
+{
+  "source": "exp5e_screen.zip/configs.json and ranking.csv",
+  "cpu_ceiling_ms": 80.89950000221506,
+  "configurations": [
+    {
+      "name": "Argon2id baseline",
+      "stages": [
+        {
+          "kind": "argon2id",
+          "m": 64,
+          "t": 3,
+          "p": 1
+        }
+      ],
+      "cpu_latency_ms": 73.5450000020137,
+      "cpu_8worker_per_s": 50.03402315888425,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2id tuned t=4 p=4 [target=100%]",
+      "stages": [
+        {
+          "kind": "argon2id",
+          "m": 135,
+          "t": 4,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 73.03387499996461,
+      "cpu_8worker_per_s": 19.149826716107352,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2id tuned t=3 p=4 [target=100%]",
+      "stages": [
+        {
+          "kind": "argon2id",
+          "m": 171,
+          "t": 3,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 72.54972500049917,
+      "cpu_8worker_per_s": 19.397726081890013,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2id tuned t=4 p=4 [target=90%]",
+      "stages": [
+        {
+          "kind": "argon2id",
+          "m": 122,
+          "t": 4,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 67.17454999943584,
+      "cpu_8worker_per_s": 20.853295856485865,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2i baseline",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 64,
+          "t": 3,
+          "p": 1
+        }
+      ],
+      "cpu_latency_ms": 77.52182500280469,
+      "cpu_8worker_per_s": 48.684413544271166,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2i tuned t=3 p=4 [target=100%]",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 170,
+          "t": 3,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 72.86952499998733,
+      "cpu_8worker_per_s": 19.59680409622335,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2i tuned t=3 p=4 [target=90%]",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 150,
+          "t": 3,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 64.30447499951697,
+      "cpu_8worker_per_s": 21.411939589440564,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2i tuned t=4 p=4 [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 121,
+          "t": 4,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 66.55454999963695,
+      "cpu_8worker_per_s": 21.569129884034737,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2d baseline",
+      "stages": [
+        {
+          "kind": "argon2d",
+          "m": 64,
+          "t": 3,
+          "p": 1
+        }
+      ],
+      "cpu_latency_ms": 73.72682499953953,
+      "cpu_8worker_per_s": 50.43217333397136,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2d tuned t=3 p=4 [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2d",
+          "m": 157,
+          "t": 3,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 66.18969999908586,
+      "cpu_8worker_per_s": 21.324694511370463,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2d tuned t=4 p=4 [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2d",
+          "m": 120,
+          "t": 4,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 65.1167499991061,
+      "cpu_8worker_per_s": 21.789568088111146,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2d tuned t=3 p=4 [target=100%]",
+      "stages": [
+        {
+          "kind": "argon2d",
+          "m": 143,
+          "t": 3,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 60.04117500015127,
+      "cpu_8worker_per_s": 23.574605947330433,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2id -> Argon2i 100 MiB (primary Argon2id 64 MiB) [p=4] [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2id",
+          "m": 174,
+          "t": 1,
+          "p": 4
+        },
+        {
+          "kind": "argon2i",
+          "m": 192,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 66.77272500019171,
+      "cpu_8worker_per_s": 21.38888437884178,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2i 100 MiB (primary Argon2id 64 MiB) -> Argon2id [p=4] [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 192,
+          "t": 1,
+          "p": 4
+        },
+        {
+          "kind": "argon2id",
+          "m": 174,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 65.92894999994314,
+      "cpu_8worker_per_s": 21.920581820837352,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2i -> Argon2d 105 MiB (primary Argon2i 64 MiB) [p=4] [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 171,
+          "t": 1,
+          "p": 4
+        },
+        {
+          "kind": "argon2d",
+          "m": 192,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 66.11962499846413,
+      "cpu_8worker_per_s": 21.961791019448295,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2i 102 MiB (primary Argon2i 64 MiB) -> Argon2i [p=4] [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 192,
+          "t": 1,
+          "p": 4
+        },
+        {
+          "kind": "argon2i",
+          "m": 173,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 66.97699999858742,
+      "cpu_8worker_per_s": 21.7439524881827,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2d 99 MiB (primary Argon2d 64 MiB) -> Argon2d [p=4] [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2d",
+          "m": 192,
+          "t": 1,
+          "p": 4
+        },
+        {
+          "kind": "argon2d",
+          "m": 173,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 66.87220000185334,
+      "cpu_8worker_per_s": 22.127580847907723,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Argon2d -> Argon2d 99 MiB (primary Argon2d 64 MiB) [p=4] [target=110%]",
+      "stages": [
+        {
+          "kind": "argon2d",
+          "m": 173,
+          "t": 1,
+          "p": 4
+        },
+        {
+          "kind": "argon2d",
+          "m": 192,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 66.87175000024581,
+      "cpu_8worker_per_s": 22.17390475703293,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Stage control ('argon2id', 174, 1, 4)",
+      "stages": [
+        {
+          "kind": "argon2id",
+          "m": 174,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": null,
+      "cpu_8worker_per_s": null,
+      "cpu_latency_eligible": null
+    },
+    {
+      "name": "Argon2i tuned t=1 p=4 [target=50%]",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 192,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 34.73609999673499,
+      "cpu_8worker_per_s": 42.73158846353982,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Stage control ('argon2i', 171, 1, 4)",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 171,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": null,
+      "cpu_8worker_per_s": null,
+      "cpu_latency_eligible": null
+    },
+    {
+      "name": "Argon2d tuned t=1 p=4 [target=75%]",
+      "stages": [
+        {
+          "kind": "argon2d",
+          "m": 192,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 34.5269500012364,
+      "cpu_8worker_per_s": 43.18443572110111,
+      "cpu_latency_eligible": true
+    },
+    {
+      "name": "Stage control ('argon2i', 173, 1, 4)",
+      "stages": [
+        {
+          "kind": "argon2i",
+          "m": 173,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": null,
+      "cpu_8worker_per_s": null,
+      "cpu_latency_eligible": null
+    },
+    {
+      "name": "Argon2d tuned t=1 p=4 [target=50%]",
+      "stages": [
+        {
+          "kind": "argon2d",
+          "m": 173,
+          "t": 1,
+          "p": 4
+        }
+      ],
+      "cpu_latency_ms": 30.837000002065906,
+      "cpu_8worker_per_s": 49.080935489076275,
+      "cpu_latency_eligible": true
+    }
+  ]
+}

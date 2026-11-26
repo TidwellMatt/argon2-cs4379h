@@ -1,0 +1,30 @@
+name: Build Windows executable
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v4*']
+permissions:
+  contents: read
+jobs:
+  windows-x64:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          architecture: x64
+      - name: Install build dependencies
+        run: python -m pip install -r requirements.txt -r requirements-build.txt
+      - name: Package and self-test Windows executable
+        run: python build_windows.py
+      - name: Upload ready-to-run executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: Argon2Optimizer-Windows-x64
+          path: |
+            dist/Argon2Optimizer.exe
+            dist/package_selftest.txt
+            dist/release_provenance.json
+          if-no-files-found: error

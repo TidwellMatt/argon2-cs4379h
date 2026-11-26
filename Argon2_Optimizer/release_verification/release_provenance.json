@@ -1,0 +1,9 @@
+{
+  "version": "8.0.0",
+  "upstream_url": "https://hashcat.net/files/hashcat-8.0.0.7z",
+  "upstream_archive_sha256": "9fa86e1bfd5dd898d3c83aa38a67b08db1ba5d2f5252dffa2af44a8c62585f49",
+  "hashcat_exe_sha256": "1af92a590ecfaf94d772f622cf6e6731bb33a46a7a0029783417a6ffcb3c7083",
+  "acquisition": "official HTTPS download",
+  "license": "See original docs/license.txt and accompanying upstream notices.",
+  "optimizer_exe_sha256": "65d11abfc9ddc81991eb82fb7b2c1d224ca0b0f695c33fc46eebde7170ff131d"
+}

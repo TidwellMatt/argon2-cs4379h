@@ -1,0 +1,147 @@
+{
+  "source_manifest_sha256": "cecaeed7a3f10d4c9917503a5a72c6d8ee5c74617470fea063cc4d8a4fbfdd04",
+  "source_comparisons_sha256": "2f4eb94936bcd797bc5dae30543a900ea3b9e7c157c6ee48c6d46089ce322e9d",
+  "configs": [
+    [
+      "id",
+      32,
+      6,
+      1
+    ],
+    [
+      "id",
+      32,
+      6,
+      4
+    ],
+    [
+      "id",
+      32,
+      6,
+      8
+    ],
+    [
+      "id",
+      64,
+      3,
+      1
+    ],
+    [
+      "id",
+      64,
+      3,
+      4
+    ],
+    [
+      "id",
+      64,
+      3,
+      8
+    ],
+    [
+      "id",
+      64,
+      4,
+      4
+    ],
+    [
+      "id",
+      64,
+      4,
+      8
+    ],
+    [
+      "id",
+      64,
+      5,
+      8
+    ],
+    [
+      "id",
+      64,
+      6,
+      8
+    ],
+    [
+      "id",
+      128,
+      2,
+      8
+    ],
+    [
+      "id",
+      128,
+      6,
+      4
+    ],
+    [
+      "id",
+      135,
+      4,
+      4
+    ],
+    [
+      "id",
+      256,
+      1,
+      8
+    ],
+    [
+      "id",
+      2048,
+      1,
+      4
+    ]
+  ],
+  "selection_rule": "All nine Argon2id point-estimate latency/GPU wins versus rfc_low, five named Argon2id controls, plus the strict resource point-estimate win versus gpu_reference. Frozen before confirmation.",
+  "rounds_planned": 20,
+  "primary": {
+    "candidate": "id_m32_t6_p4",
+    "control": "id_m64_t3_p4"
+  },
+  "secondary": [
+    {
+      "candidate": "id_m128_t2_p8",
+      "control": "id_m64_t3_p4"
+    },
+    {
+      "candidate": "id_m256_t1_p8",
+      "control": "id_m64_t3_p4"
+    },
+    {
+      "candidate": "id_m32_t6_p8",
+      "control": "id_m64_t3_p4"
+    },
+    {
+      "candidate": "id_m64_t3_p8",
+      "control": "id_m64_t3_p4"
+    },
+    {
+      "candidate": "id_m64_t4_p4",
+      "control": "id_m64_t3_p4"
+    },
+    {
+      "candidate": "id_m64_t4_p8",
+      "control": "id_m64_t3_p4"
+    },
+    {
+      "candidate": "id_m64_t5_p8",
+      "control": "id_m64_t3_p4"
+    },
+    {
+      "candidate": "id_m64_t6_p8",
+      "control": "id_m64_t3_p4"
+    },
+    {
+      "candidate": "id_m32_t6_p1",
+      "control": "id_m64_t3_p1"
+    }
+  ],
+  "controls": [
+    "id_m64_t3_p4",
+    "id_m2048_t1_p4",
+    "id_m64_t3_p1",
+    "id_m135_t4_p4",
+    "id_m128_t6_p4"
+  ]
+}

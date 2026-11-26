@@ -1,0 +1,40 @@
+{
+  "version": "7",
+  "backends": {
+    "balloon": {
+      "available": true,
+      "backend": "nettle",
+      "validation": "3 published Nettle vectors"
+    },
+    "yescrypt": {
+      "available": true,
+      "backend": "libxcrypt",
+      "validation": "determinism/input sensitivity only; independent KAT pending"
+    },
+    "lyra2": {
+      "available": true,
+      "backend": "external PHS shared library",
+      "validation": "determinism/input sensitivity only; independent KAT pending"
+    },
+    "catena": {
+      "available": true,
+      "backend": "external PHS shared library",
+      "validation": "determinism/input sensitivity only; independent KAT pending"
+    },
+    "bcrypt": {
+      "available": true,
+      "backend": "bcrypt"
+    }
+  },
+  "workers": [
+    1,
+    8
+  ],
+  "repeats": 2,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "logical_cpus": 24,
+  "synthetic_only": true,
+  "backend": "CPU process pool",
+  "confirmation_from": null
+}

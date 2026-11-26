@@ -1,0 +1,29 @@
+{
+  "version": "5E",
+  "calibration_target_ms": 3.852599998936057,
+  "measured_anchor_ms": 3.9887000020826235,
+  "latency_ceiling_ms": 4.387570002290886,
+  "targets_pct": [
+    50,
+    110
+  ],
+  "planned_calibrations": 33,
+  "workers": [
+    1,
+    2
+  ],
+  "repeats": 1,
+  "jobs_per_worker": 1,
+  "configurations": 33,
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "logical_cpus": 24,
+  "tolerance_pct": 10,
+  "equal_tolerance_pct": 5,
+  "resource_tolerance_pct": 10,
+  "min_gain_pct": 5,
+  "confirmation_from": null,
+  "synthetic_only": true,
+  "backend": "CPU native libraries"
+}

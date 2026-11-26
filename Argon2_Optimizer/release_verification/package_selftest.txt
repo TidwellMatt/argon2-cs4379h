@@ -1,0 +1,4 @@
+Known-answer and bundled profile checks passed.
+v8.0.0
+
+PACKAGED SELF-TEST PASSED (no GPU workload).

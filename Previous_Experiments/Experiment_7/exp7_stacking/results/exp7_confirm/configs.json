@@ -1,0 +1,762 @@
+[
+  {
+    "name": "Argon2id(64MiB,t3,p1)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 64,
+        "t": 3,
+        "p": 1
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(64MiB,t3,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(64MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 64,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(64MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2d(64MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(64MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2id(135MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 135,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(135MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(170MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 170,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(170MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2d(157MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 157,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(157MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2id(64MiB,t1,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 64,
+        "t": 1,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(64MiB,t1,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(64MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 64,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(64MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(128MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 128,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(128MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(128MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 128,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(128MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(128MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 128,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(128MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(192MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 192,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(192MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(256MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 256,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(256MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(256MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 256,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(256MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(256MiB,t6,p1)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 256,
+        "t": 6,
+        "p": 1
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(256MiB,t6,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(256MiB,t6,p2)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 256,
+        "t": 6,
+        "p": 2
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(256MiB,t6,p2)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(256MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 256,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2id(256MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(64MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 64,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(64MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(128MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 128,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(128MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(128MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 128,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(128MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(128MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 128,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(128MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(256MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 256,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(256MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(256MiB,t6,p1)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 256,
+        "t": 6,
+        "p": 1
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(256MiB,t6,p1)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(256MiB,t6,p2)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 256,
+        "t": 6,
+        "p": 2
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(256MiB,t6,p2)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(256MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 256,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2i(256MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2d(64MiB,t1,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 1,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(64MiB,t1,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(64MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(64MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(128MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 128,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(128MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(128MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 128,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(128MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(128MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 128,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(128MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(192MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 192,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(192MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(192MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 192,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(192MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(256MiB,t1,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 256,
+        "t": 1,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(256MiB,t1,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(256MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 256,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(256MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(256MiB,t6,p2)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 256,
+        "t": 6,
+        "p": 2
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(256MiB,t6,p2)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2d(256MiB,t6,p4)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 256,
+        "t": 6,
+        "p": 4
+      }
+    ],
+    "family": "standalone",
+    "anchor": "Argon2d(256MiB,t6,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "AES-CTR(32 rounds) -> Argon2i(64MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 32
+      },
+      {
+        "kind": "argon2i",
+        "m": 64,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2i(64MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2d(64MiB,t3,p4) -> AES-CCM(32 rounds)",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 64,
+        "t": 3,
+        "p": 4
+      },
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CCM",
+        "rounds": 32
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2d(64MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  },
+  {
+    "name": "Argon2id(135MiB,t4,p4) -> AES-CTR(32 rounds)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 135,
+        "t": 4,
+        "p": 4
+      },
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CTR",
+        "rounds": 32
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(135MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(135MiB,t4,p4) -> AES-CFB(32 rounds)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 135,
+        "t": 4,
+        "p": 4
+      },
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-CFB",
+        "rounds": 32
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(135MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "AES-GCM(32 rounds) -> Argon2id(135MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-GCM",
+        "rounds": 32
+      },
+      {
+        "kind": "argon2id",
+        "m": 135,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(135MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "ChaCha20(32 rounds) -> Argon2id(135MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "cipher_workload",
+        "cipher": "ChaCha20",
+        "rounds": 32
+      },
+      {
+        "kind": "argon2id",
+        "m": 135,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(135MiB,t4,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2id(135MiB,t4,p4) -> yescrypt-MCF(cost3)",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 135,
+        "t": 4,
+        "p": 4
+      },
+      {
+        "kind": "yescrypt",
+        "backend": "libxcrypt",
+        "cost": 3
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(135MiB,t4,p4)",
+    "exploratory_backend": true,
+    "contains_argon2d": false
+  },
+  {
+    "name": "yescrypt-MCF(cost3) -> Argon2id(135MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "yescrypt",
+        "backend": "libxcrypt",
+        "cost": 3
+      },
+      {
+        "kind": "argon2id",
+        "m": 135,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(135MiB,t4,p4)",
+    "exploratory_backend": true,
+    "contains_argon2d": false
+  },
+  {
+    "name": "lyra2(m_cost1024,t1) -> Argon2id(135MiB,t4,p4)",
+    "stages": [
+      {
+        "kind": "lyra2",
+        "m_cost": 1024,
+        "t": 1
+      },
+      {
+        "kind": "argon2id",
+        "m": 135,
+        "t": 4,
+        "p": 4
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2id(135MiB,t4,p4)",
+    "exploratory_backend": true,
+    "contains_argon2d": false
+  },
+  {
+    "name": "Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 170,
+        "t": 3,
+        "p": 4
+      },
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-GCM",
+        "rounds": 32
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2i(170MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": false
+  },
+  {
+    "name": "AES-OFB(32 rounds) -> Argon2d(157MiB,t3,p4)",
+    "stages": [
+      {
+        "kind": "cipher_workload",
+        "cipher": "AES-OFB",
+        "rounds": 32
+      },
+      {
+        "kind": "argon2d",
+        "m": 157,
+        "t": 3,
+        "p": 4
+      }
+    ],
+    "family": "hybrid",
+    "anchor": "Argon2d(157MiB,t3,p4)",
+    "exploratory_backend": false,
+    "contains_argon2d": true
+  }
+]

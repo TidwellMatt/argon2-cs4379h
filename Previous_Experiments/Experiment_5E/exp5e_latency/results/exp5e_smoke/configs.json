@@ -1,0 +1,551 @@
+[
+  {
+    "name": "Argon2id baseline",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 3,
+        "p": 1
+      }
+    ],
+    "family": "baseline",
+    "target_pct": null
+  },
+  {
+    "name": "Argon2i baseline",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 4,
+        "t": 3,
+        "p": 1
+      }
+    ],
+    "family": "baseline",
+    "target_pct": null
+  },
+  {
+    "name": "Argon2d baseline",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 4,
+        "t": 3,
+        "p": 1
+      }
+    ],
+    "family": "baseline",
+    "target_pct": null
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=1] [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 4049
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=1] [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 9953
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=2] [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 3358
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha256 (Argon2id t=1) [p=2] [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 10175
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=1] [target=50%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 4049
+      },
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=1] [target=110%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 9953
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=2] [target=50%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 3358
+      },
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "PBKDF2-sha256 (Argon2id t=1) -> Argon2id [p=2] [target=110%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha256",
+        "iterations": 10175
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=1] [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 2367
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=1] [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 5502
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=2] [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 1776
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha512 (Argon2id t=1) [p=2] [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 5872
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=1] [target=50%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 2367
+      },
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=1] [target=110%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 5502
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=2] [target=50%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 1776
+      },
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "PBKDF2-sha512 (Argon2id t=1) -> Argon2id [p=2] [target=110%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha512",
+        "iterations": 5872
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=1] [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 1752
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=1] [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 1
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 4060
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=2] [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 1399
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2id -> PBKDF2-sha3_256 (Argon2id t=1) [p=2] [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 2
+      },
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 4345
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=1] [target=50%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 1752
+      },
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=1] [target=110%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 4060
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 1
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=2] [target=50%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 1399
+      },
+      {
+        "kind": "argon2id",
+        "m": 2,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 50
+  },
+  {
+    "name": "PBKDF2-sha3_256 (Argon2id t=1) -> Argon2id [p=2] [target=110%]",
+    "stages": [
+      {
+        "kind": "pbkdf2",
+        "digest": "sha3_256",
+        "iterations": 4345
+      },
+      {
+        "kind": "argon2id",
+        "m": 4,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "PBKDF2 cascade",
+    "target_pct": 110
+  },
+  {
+    "name": "Argon2id tuned t=1 p=2 [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 6,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "tuned standalone",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2id tuned t=1 p=2 [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2id",
+        "m": 8,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "tuned standalone",
+    "target_pct": 110
+  },
+  {
+    "name": "Argon2i tuned t=1 p=2 [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 6,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "tuned standalone",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2i tuned t=1 p=2 [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2i",
+        "m": 8,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "tuned standalone",
+    "target_pct": 110
+  },
+  {
+    "name": "Argon2d tuned t=1 p=2 [target=50%]",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 6,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "tuned standalone",
+    "target_pct": 50
+  },
+  {
+    "name": "Argon2d tuned t=1 p=2 [target=110%]",
+    "stages": [
+      {
+        "kind": "argon2d",
+        "m": 8,
+        "t": 1,
+        "p": 2
+      }
+    ],
+    "family": "tuned standalone",
+    "target_pct": 110
+  }
+]

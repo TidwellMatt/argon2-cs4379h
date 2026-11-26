@@ -1,0 +1,2 @@
+hybrid,control,rounds,workers,product_ratio,improvement_pct,simultaneous_95_low,simultaneous_95_high,lower_product_supported,at_least_5pct_lower_supported
+"Argon2i(170MiB,t3,p4) -> AES-GCM(32 rounds)","Argon2i(170MiB,t3,p4)",1,2,0.6090951964796283,39.09048035203717,,,False,False

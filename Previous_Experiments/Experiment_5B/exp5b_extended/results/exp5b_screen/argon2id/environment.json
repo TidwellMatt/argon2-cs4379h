@@ -1,0 +1,26 @@
+{
+  "baseline_variant": "argon2id",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "logical_cpus": 24,
+  "openssl": "OpenSSL 3.0.21 9 Jun 2026",
+  "argon2_cffi": "25.1.0",
+  "bcrypt": "5.0.0",
+  "psutil": "7.2.2",
+  "workers": [
+    1,
+    2,
+    4
+  ],
+  "repeats": 2,
+  "jobs_per_worker": 3,
+  "tolerance_pct": 5,
+  "seed": 54379,
+  "confirmation_from": null,
+  "calibration_target_ms": 82.11640000081388,
+  "quick": false,
+  "screen": true,
+  "smoke": false,
+  "timestamp_utc": "2026-11-25T00:34:27Z"
+}
